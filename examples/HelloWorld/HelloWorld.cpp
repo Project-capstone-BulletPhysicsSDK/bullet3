@@ -16,6 +16,8 @@ subject to the following restrictions:
 ///-----includes_start-----
 #include "btBulletDynamicsCommon.h"
 #include <stdio.h>
+#include <cstdlib>
+
 
 /// This is a Hello World program for running a basic Bullet physics simulation
 
@@ -40,7 +42,7 @@ int main(int argc, char** argv)
 
 	btDiscreteDynamicsWorld* dynamicsWorld = new btDiscreteDynamicsWorld(dispatcher, overlappingPairCache, solver, collisionConfiguration);
 
-	dynamicsWorld->setGravity(btVector3(0, -10, 0));
+	dynamicsWorld->setGravity(btVector3(0, -15, 0));
 
 	///-----initialization_end-----
 
@@ -59,7 +61,7 @@ int main(int argc, char** argv)
 
 		btTransform groundTransform;
 		groundTransform.setIdentity();
-		groundTransform.setOrigin(btVector3(0, -56, 0));
+		groundTransform.setOrigin(btVector3(0, -100, 0));
 
 		btScalar mass(0.);
 
@@ -78,8 +80,11 @@ int main(int argc, char** argv)
 		//add the body to the dynamics world
 		dynamicsWorld->addRigidBody(body);
 	}
-
-	{
+	int amt = 1;
+	if (argc == 2){
+	amt = atoi(argv[1]);
+	}
+	for (int k = 0; k < amt; k++) {
 		//create a dynamic rigidbody
 
 		//btCollisionShape* colShape = new btBoxShape(btVector3(1,1,1));
@@ -99,7 +104,7 @@ int main(int argc, char** argv)
 		if (isDynamic)
 			colShape->calculateLocalInertia(mass, localInertia);
 
-		startTransform.setOrigin(btVector3(2, 10, 0));
+		startTransform.setOrigin(btVector3(k, 10, 0));
 
 		//using motionstate is recommended, it provides interpolation capabilities, and only synchronizes 'active' objects
 		btDefaultMotionState* myMotionState = new btDefaultMotionState(startTransform);
