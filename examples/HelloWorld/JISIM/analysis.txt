@@ -1,0 +1,959 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 25.00      0.01     0.01                             gResolveSplitPenetrationImpulse_scalar_reference(btSolverBody&, btSolverBody&, btSolverConstraint const&)
+ 25.00      0.02     0.01                             btDbvtBroadphase::setAabb(btBroadphaseProxy*, btVector3 const&, btVector3 const&, btDispatcher*)
+ 25.00      0.03     0.01                             btHashedOverlappingPairCache::internalAddPair(btBroadphaseProxy*, btBroadphaseProxy*)
+ 25.00      0.04     0.01                             btSequentialImpulseConstraintSolver::getOrInitSolverBody(btCollisionObject&, float)
+  0.00      0.04     0.00   453867     0.00     0.00  btVector3::x() const
+  0.00      0.04     0.00   453867     0.00     0.00  btVector3::y() const
+  0.00      0.04     0.00   453867     0.00     0.00  btVector3::z() const
+  0.00      0.04     0.00   314355     0.00     0.00  btMatrix3x3::operator[](int) const
+  0.00      0.04     0.00   259264     0.00     0.00  btVector3::btVector3()
+  0.00      0.04     0.00   106608     0.00     0.00  btVector3::setValue(float const&, float const&, float const&)
+  0.00      0.04     0.00   105087     0.00     0.00  btVector3::dot(btVector3 const&) const
+  0.00      0.04     0.00    70515     0.00     0.00  btVector3::btVector3(float const&, float const&, float const&)
+  0.00      0.04     0.00    69756     0.00     0.00  btMatrix3x3::tdotx(btVector3 const&) const
+  0.00      0.04     0.00    69756     0.00     0.00  btMatrix3x3::tdoty(btVector3 const&) const
+  0.00      0.04     0.00    69756     0.00     0.00  btMatrix3x3::tdotz(btVector3 const&) const
+  0.00      0.04     0.00    35486     0.00     0.00  btMatrix3x3::btMatrix3x3(btMatrix3x3 const&)
+  0.00      0.04     0.00    35334     0.00     0.00  btMatrix3x3::setValue(float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&)
+  0.00      0.04     0.00    35030     0.00     0.00  btMatrix3x3::btMatrix3x3(float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&)
+  0.00      0.04     0.00    35030     0.00     0.00  btTransform::btTransform(btMatrix3x3 const&, btVector3 const&)
+  0.00      0.04     0.00    34875     0.00     0.00  btTransform::getOrigin()
+  0.00      0.04     0.00    23402     0.00     0.00  btRigidBody::getMotionState()
+  0.00      0.04     0.00    23252     0.00     0.00  btMatrix3x3::operator=(btMatrix3x3 const&)
+  0.00      0.04     0.00    23252     0.00     0.00  btTransform::operator=(btTransform const&)
+  0.00      0.04     0.00    23252     0.00     0.00  btTransform::operator()(btVector3 const&) const
+  0.00      0.04     0.00    23252     0.00     0.00  btTransform::operator*(btTransform const&) const
+  0.00      0.04     0.00    23252     0.00     0.00  btVector3::dot3(btVector3 const&, btVector3 const&, btVector3 const&) const
+  0.00      0.04     0.00    23252     0.00     0.00  operator*(btMatrix3x3 const&, btMatrix3x3 const&)
+  0.00      0.04     0.00    23252     0.00     0.00  operator+(btVector3 const&, btVector3 const&)
+  0.00      0.04     0.00    11929     0.00     0.00  btMatrix3x3::btMatrix3x3()
+  0.00      0.04     0.00    11929     0.00     0.00  btTransform::btTransform()
+  0.00      0.04     0.00    11777     0.00     0.00  btMatrix3x3::transpose() const
+  0.00      0.04     0.00    11777     0.00     0.00  btTransform::inverse() const
+  0.00      0.04     0.00    11777     0.00     0.00  btDefaultMotionState::getWorldTransform(btTransform&) const
+  0.00      0.04     0.00    11777     0.00     0.00  operator*(btMatrix3x3 const&, btVector3 const&)
+  0.00      0.04     0.00    11777     0.00     0.00  operator-(btVector3 const&)
+  0.00      0.04     0.00    11625     0.00     0.00  btRigidBody::upcast(btCollisionObject*)
+  0.00      0.04     0.00    11625     0.00     0.00  btCollisionWorld::getCollisionObjectArray()
+  0.00      0.04     0.00    11625     0.00     0.00  btAlignedObjectArray<btCollisionObject*>::operator[](int)
+  0.00      0.04     0.00    11625     0.00     0.00  btCollisionObject::getInternalType() const
+  0.00      0.04     0.00    11625     0.00     0.00  btVector3::getX() const
+  0.00      0.04     0.00    11625     0.00     0.00  btVector3::getY() const
+  0.00      0.04     0.00    11625     0.00     0.00  btVector3::getZ() const
+  0.00      0.04     0.00    11475     0.00     0.00  btDefaultMotionState::setWorldTransform(btTransform const&)
+  0.00      0.04     0.00      608     0.00     0.00  std::vector<btRigidBody*, std::allocator<btRigidBody*> >::operator[](unsigned long)
+  0.00      0.04     0.00      456     0.00     0.00  btTransform::btTransform(btTransform const&)
+  0.00      0.04     0.00      313     0.00     0.00  btRigidBody* const& std::forward<btRigidBody* const&>(std::remove_reference<btRigidBody* const&>::type&)
+  0.00      0.04     0.00      304     0.00     0.00  btMatrix3x3::setIdentity()
+  0.00      0.04     0.00      304     0.00     0.00  btTransform::setIdentity()
+  0.00      0.04     0.00      198     0.00     0.00  std::vector<btRigidBody*, std::allocator<btRigidBody*> >::size() const
+  0.00      0.04     0.00      152     0.00     0.00  btRigidBody::getCollisionShape()
+  0.00      0.04     0.00      152     0.00     0.00  btRigidBody::btRigidBodyConstructionInfo::btRigidBodyConstructionInfo(float, btMotionState*, btCollisionShape*, btVector3 const&)
+  0.00      0.04     0.00      152     0.00     0.00  btTransform::getIdentity()
+  0.00      0.04     0.00      152     0.00     0.00  btTransform::setOrigin(btVector3 const&)
+  0.00      0.04     0.00      152     0.00     0.00  btMotionState::btMotionState()
+  0.00      0.04     0.00      152     0.00     0.00  btMotionState::~btMotionState()
+  0.00      0.04     0.00      152     0.00     0.00  btCollisionObject::operator new(unsigned long)
+  0.00      0.04     0.00      152     0.00     0.00  btDefaultMotionState::btDefaultMotionState(btTransform const&, btTransform const&)
+  0.00      0.04     0.00      152     0.00     0.00  btDefaultMotionState::~btDefaultMotionState()
+  0.00      0.04     0.00      152     0.00     0.00  btDefaultMotionState::~btDefaultMotionState()
+  0.00      0.04     0.00      152     0.00     0.00  btDefaultMotionState::operator delete(void*)
+  0.00      0.04     0.00      152     0.00     0.00  btDefaultMotionState::operator new(unsigned long)
+  0.00      0.04     0.00      152     0.00     0.00  _ZN9__gnu_cxx13new_allocatorIP11btRigidBodyE9constructIS2_IRKS2_EEEvPT_DpOT0_
+  0.00      0.04     0.00      152     0.00     0.00  _ZNSt16allocator_traitsISaIP11btRigidBodyEE9constructIS1_IRKS1_EEEvRS2_PT_DpOT0_
+  0.00      0.04     0.00      152     0.00     0.00  std::vector<btRigidBody*, std::allocator<btRigidBody*> >::push_back(btRigidBody* const&)
+  0.00      0.04     0.00      152     0.00     0.00  operator new(unsigned long, void*)
+  0.00      0.04     0.00      151     0.00     0.00  addSphere(float, float, float, float, float)
+  0.00      0.04     0.00      151     0.00     0.00  btSphereShape::btSphereShape(float)
+  0.00      0.04     0.00      151     0.00     0.00  btSphereShape::operator new(unsigned long)
+  0.00      0.04     0.00      151     0.00     0.00  btVector3::setX(float)
+  0.00      0.04     0.00      151     0.00     0.00  btVector3::setZero()
+  0.00      0.04     0.00      150     0.00     0.00  btRigidBody::setLinearVelocity(btVector3 const&)
+  0.00      0.04     0.00      150     0.00     0.00  btCollisionWorld::getNumCollisionObjects() const
+  0.00      0.04     0.00      150     0.00     0.00  btAlignedObjectArray<btCollisionObject*>::size() const
+  0.00      0.04     0.00       27     0.00     0.00  __gnu_cxx::new_allocator<btRigidBody*>::max_size() const
+  0.00      0.04     0.00       27     0.00     0.00  std::_Iter_base<btRigidBody**, false>::_S_base(btRigidBody**)
+  0.00      0.04     0.00       27     0.00     0.00  std::_Niter_base<btRigidBody**>::iterator_type std::__niter_base<btRigidBody**>(btRigidBody**)
+  0.00      0.04     0.00       19     0.00     0.00  std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_M_get_Tp_allocator()
+  0.00      0.04     0.00       18     0.00     0.00  std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_M_get_Tp_allocator() const
+  0.00      0.04     0.00       18     0.00     0.00  std::move_iterator<btRigidBody**>::base() const
+  0.00      0.04     0.00       18     0.00     0.00  std::vector<btRigidBody*, std::allocator<btRigidBody*> >::max_size() const
+  0.00      0.04     0.00       18     0.00     0.00  std::_Iter_base<std::move_iterator<btRigidBody**>, true>::_S_base(std::move_iterator<btRigidBody**>)
+  0.00      0.04     0.00       18     0.00     0.00  std::move_iterator<btRigidBody**>::move_iterator(btRigidBody**)
+  0.00      0.04     0.00       18     0.00     0.00  std::allocator_traits<std::allocator<btRigidBody*> >::max_size(std::allocator<btRigidBody*> const&)
+  0.00      0.04     0.00       18     0.00     0.00  std::_Miter_base<std::move_iterator<btRigidBody**> >::iterator_type std::__miter_base<std::move_iterator<btRigidBody**> >(std::move_iterator<btRigidBody**>)
+  0.00      0.04     0.00       18     0.00     0.00  std::move_iterator<btRigidBody**> std::__make_move_if_noexcept_iterator<btRigidBody**, std::move_iterator<btRigidBody**> >(btRigidBody**)
+  0.00      0.04     0.00       10     0.00     0.00  void std::_Destroy_aux<true>::__destroy<btRigidBody**>(btRigidBody**, btRigidBody**)
+  0.00      0.04     0.00       10     0.00     0.00  std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_M_deallocate(btRigidBody**, unsigned long)
+  0.00      0.04     0.00       10     0.00     0.00  void std::_Destroy<btRigidBody**>(btRigidBody**, btRigidBody**)
+  0.00      0.04     0.00       10     0.00     0.00  void std::_Destroy<btRigidBody**, btRigidBody*>(btRigidBody**, btRigidBody**, std::allocator<btRigidBody*>&)
+  0.00      0.04     0.00        9     0.00     0.00  __gnu_cxx::new_allocator<btRigidBody*>::deallocate(btRigidBody**, unsigned long)
+  0.00      0.04     0.00        9     0.00     0.00  __gnu_cxx::new_allocator<btRigidBody*>::allocate(unsigned long, void const*)
+  0.00      0.04     0.00        9     0.00     0.00  std::vector<btRigidBody*, std::allocator<btRigidBody*> >::_M_check_len(unsigned long, char const*) const
+  0.00      0.04     0.00        9     0.00     0.00  btRigidBody** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<btRigidBody*>(btRigidBody* const*, btRigidBody* const*, btRigidBody**)
+  0.00      0.04     0.00        9     0.00     0.00  std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_M_allocate(unsigned long)
+  0.00      0.04     0.00        9     0.00     0.00  std::allocator_traits<std::allocator<btRigidBody*> >::deallocate(std::allocator<btRigidBody*>&, btRigidBody**, unsigned long)
+  0.00      0.04     0.00        9     0.00     0.00  std::allocator_traits<std::allocator<btRigidBody*> >::allocate(std::allocator<btRigidBody*>&, unsigned long)
+  0.00      0.04     0.00        9     0.00     0.00  btRigidBody** std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<btRigidBody**>, btRigidBody**>(std::move_iterator<btRigidBody**>, std::move_iterator<btRigidBody**>, btRigidBody**)
+  0.00      0.04     0.00        9     0.00     0.00  void std::vector<btRigidBody*, std::allocator<btRigidBody*> >::_M_emplace_back_aux<btRigidBody* const&>(btRigidBody* const&)
+  0.00      0.04     0.00        9     0.00     0.00  btRigidBody** std::__copy_move_a<true, btRigidBody**, btRigidBody**>(btRigidBody**, btRigidBody**, btRigidBody**)
+  0.00      0.04     0.00        9     0.00     0.00  btRigidBody** std::__copy_move_a2<true, btRigidBody**, btRigidBody**>(btRigidBody**, btRigidBody**, btRigidBody**)
+  0.00      0.04     0.00        9     0.00     0.00  btRigidBody** std::uninitialized_copy<std::move_iterator<btRigidBody**>, btRigidBody**>(std::move_iterator<btRigidBody**>, std::move_iterator<btRigidBody**>, btRigidBody**)
+  0.00      0.04     0.00        9     0.00     0.00  btRigidBody** std::__uninitialized_copy_a<std::move_iterator<btRigidBody**>, btRigidBody**, btRigidBody*>(std::move_iterator<btRigidBody**>, std::move_iterator<btRigidBody**>, btRigidBody**, std::allocator<btRigidBody*>&)
+  0.00      0.04     0.00        9     0.00     0.00  btRigidBody** std::__uninitialized_move_if_noexcept_a<btRigidBody**, btRigidBody**, std::allocator<btRigidBody*> >(btRigidBody**, btRigidBody**, btRigidBody**, std::allocator<btRigidBody*>&)
+  0.00      0.04     0.00        9     0.00     0.00  unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
+  0.00      0.04     0.00        9     0.00     0.00  btRigidBody** std::copy<std::move_iterator<btRigidBody**>, btRigidBody**>(std::move_iterator<btRigidBody**>, std::move_iterator<btRigidBody**>, btRigidBody**)
+  0.00      0.04     0.00        4     0.00     0.00  std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const
+  0.00      0.04     0.00        3     0.00     0.00  std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const
+  0.00      0.04     0.00        2     0.00     0.00  std::chrono::duration<double, std::ratio<1l, 1l> >::count() const
+  0.00      0.04     0.00        1     0.00     0.00  _GLOBAL__sub_I_world
+  0.00      0.04     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.04     0.00        1     0.00     0.00  init()
+  0.00      0.04     0.00        1     0.00     0.00  btMatrix3x3::getIdentity()
+  0.00      0.04     0.00        1     0.00     0.00  btInfMaskConverter::btInfMaskConverter(int)
+  0.00      0.04     0.00        1     0.00     0.00  btStaticPlaneShape::operator new(unsigned long)
+  0.00      0.04     0.00        1     0.00     0.00  btDiscreteDynamicsWorld::operator new(unsigned long)
+  0.00      0.04     0.00        1     0.00     0.00  btDefaultCollisionConstructionInfo::btDefaultCollisionConstructionInfo()
+  0.00      0.04     0.00        1     0.00     0.00  btSequentialImpulseConstraintSolver::operator new(unsigned long)
+  0.00      0.04     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<btRigidBody*>::new_allocator()
+  0.00      0.04     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<btRigidBody*>::~new_allocator()
+  0.00      0.04     0.00        1     0.00     0.00  std::chrono::duration<long, std::ratio<1l, 1l> >::count() const
+  0.00      0.04     0.00        1     0.00     0.00  std::allocator<btRigidBody*>::allocator()
+  0.00      0.04     0.00        1     0.00     0.00  std::allocator<btRigidBody*>::~allocator()
+  0.00      0.04     0.00        1     0.00     0.00  std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_Vector_impl::_Vector_impl()
+  0.00      0.04     0.00        1     0.00     0.00  std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_Vector_impl::~_Vector_impl()
+  0.00      0.04     0.00        1     0.00     0.00  std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_Vector_base()
+  0.00      0.04     0.00        1     0.00     0.00  std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::~_Vector_base()
+  0.00      0.04     0.00        1     0.00     0.00  std::enable_if<std::chrono::__is_duration<std::chrono::duration<double, std::ratio<1l, 1l> > >::value, std::chrono::duration<double, std::ratio<1l, 1l> > >::type std::chrono::duration_cast<std::chrono::duration<double, std::ratio<1l, 1l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00      0.04     0.00        1     0.00     0.00  std::enable_if<std::chrono::__is_duration<std::chrono::duration<long, std::ratio<1l, 1l> > >::value, std::chrono::duration<long, std::ratio<1l, 1l> > >::type std::chrono::duration_cast<std::chrono::duration<long, std::ratio<1l, 1l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00      0.04     0.00        1     0.00     0.00  std::chrono::duration<double, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00      0.04     0.00        1     0.00     0.00  std::chrono::duration<long, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<long, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, long, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00      0.04     0.00        1     0.00     0.00  std::chrono::_V2::system_clock::to_time_t(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&)
+  0.00      0.04     0.00        1     0.00     0.00  std::chrono::duration<double, std::ratio<1l, 1l> >::duration<double, void>(double const&)
+  0.00      0.04     0.00        1     0.00     0.00  std::chrono::duration<double, std::ratio<1l, 1l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00      0.04     0.00        1     0.00     0.00  std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&)
+  0.00      0.04     0.00        1     0.00     0.00  std::chrono::duration<long, std::ratio<1l, 1l> >::duration<long, void>(long const&)
+  0.00      0.04     0.00        1     0.00     0.00  std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&)
+  0.00      0.04     0.00        1     0.00     0.00  std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00      0.04     0.00        1     0.00     0.00  std::vector<btRigidBody*, std::allocator<btRigidBody*> >::vector()
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2015 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 25.00% of 0.04 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     25.0    0.01    0.00                 gResolveSplitPenetrationImpulse_scalar_reference(btSolverBody&, btSolverBody&, btSolverConstraint const&) [1]
+-----------------------------------------------
+                                                 <spontaneous>
+[2]     25.0    0.01    0.00                 btDbvtBroadphase::setAabb(btBroadphaseProxy*, btVector3 const&, btVector3 const&, btDispatcher*) [2]
+-----------------------------------------------
+                                                 <spontaneous>
+[3]     25.0    0.01    0.00                 btHashedOverlappingPairCache::internalAddPair(btBroadphaseProxy*, btBroadphaseProxy*) [3]
+-----------------------------------------------
+                                                 <spontaneous>
+[4]     25.0    0.01    0.00                 btSequentialImpulseConstraintSolver::getOrInitSolverBody(btCollisionObject&, float) [4]
+-----------------------------------------------
+                0.00    0.00   35331/453867      btMatrix3x3::transpose() const [40]
+                0.00    0.00   69756/453867      btMatrix3x3::tdoty(btVector3 const&) const [23]
+                0.00    0.00   69756/453867      btMatrix3x3::tdotz(btVector3 const&) const [24]
+                0.00    0.00  279024/453867      btMatrix3x3::tdotx(btVector3 const&) const [22]
+[14]     0.0    0.00    0.00  453867         btVector3::x() const [14]
+-----------------------------------------------
+                0.00    0.00   35331/453867      btMatrix3x3::transpose() const [40]
+                0.00    0.00   69756/453867      btMatrix3x3::tdotx(btVector3 const&) const [22]
+                0.00    0.00   69756/453867      btMatrix3x3::tdotz(btVector3 const&) const [24]
+                0.00    0.00  279024/453867      btMatrix3x3::tdoty(btVector3 const&) const [23]
+[15]     0.0    0.00    0.00  453867         btVector3::y() const [15]
+-----------------------------------------------
+                0.00    0.00   35331/453867      btMatrix3x3::transpose() const [40]
+                0.00    0.00   69756/453867      btMatrix3x3::tdotx(btVector3 const&) const [22]
+                0.00    0.00   69756/453867      btMatrix3x3::tdoty(btVector3 const&) const [23]
+                0.00    0.00  279024/453867      btMatrix3x3::tdotz(btVector3 const&) const [24]
+[16]     0.0    0.00    0.00  453867         btVector3::z() const [16]
+-----------------------------------------------
+                0.00    0.00   35331/314355      operator*(btMatrix3x3 const&, btVector3 const&) [43]
+                0.00    0.00   69756/314355      btTransform::operator()(btVector3 const&) const [33]
+                0.00    0.00  209268/314355      operator*(btMatrix3x3 const&, btMatrix3x3 const&) [36]
+[17]     0.0    0.00    0.00  314355         btMatrix3x3::operator[](int) const [17]
+-----------------------------------------------
+                0.00    0.00   11929/259264      btTransform::btTransform() [39]
+                0.00    0.00   35787/259264      btMatrix3x3::btMatrix3x3() [38]
+                0.00    0.00  105090/259264      btMatrix3x3::btMatrix3x3(float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&) [27]
+                0.00    0.00  106458/259264      btMatrix3x3::btMatrix3x3(btMatrix3x3 const&) [25]
+[18]     0.0    0.00    0.00  259264         btVector3::btVector3() [18]
+-----------------------------------------------
+                0.00    0.00     151/106608      btVector3::setZero() [79]
+                0.00    0.00     151/106608      btSphereShape::btSphereShape(float) [76]
+                0.00    0.00     304/106608      btTransform::setIdentity() [57]
+                0.00    0.00  106002/106608      btMatrix3x3::setValue(float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&) [26]
+[19]     0.0    0.00    0.00  106608         btVector3::setValue(float const&, float const&, float const&) [19]
+-----------------------------------------------
+                0.00    0.00   35331/105087      operator*(btMatrix3x3 const&, btVector3 const&) [43]
+                0.00    0.00   69756/105087      btVector3::dot3(btVector3 const&, btVector3 const&, btVector3 const&) const [35]
+[20]     0.0    0.00    0.00  105087         btVector3::dot(btVector3 const&) const [20]
+-----------------------------------------------
+                0.00    0.00       1/70515       btTransform::getIdentity() [61]
+                0.00    0.00       4/70515       init() [120]
+                0.00    0.00     150/70515       main [12]
+                0.00    0.00     302/70515       addSphere(float, float, float, float, float) [75]
+                0.00    0.00   11777/70515       operator-(btVector3 const&) [44]
+                0.00    0.00   11777/70515       operator*(btMatrix3x3 const&, btVector3 const&) [43]
+                0.00    0.00   23252/70515       btVector3::dot3(btVector3 const&, btVector3 const&, btVector3 const&) const [35]
+                0.00    0.00   23252/70515       operator+(btVector3 const&, btVector3 const&) [37]
+[21]     0.0    0.00    0.00   70515         btVector3::btVector3(float const&, float const&, float const&) [21]
+-----------------------------------------------
+                0.00    0.00   69756/69756       operator*(btMatrix3x3 const&, btMatrix3x3 const&) [36]
+[22]     0.0    0.00    0.00   69756         btMatrix3x3::tdotx(btVector3 const&) const [22]
+                0.00    0.00  279024/453867      btVector3::x() const [14]
+                0.00    0.00   69756/453867      btVector3::y() const [15]
+                0.00    0.00   69756/453867      btVector3::z() const [16]
+-----------------------------------------------
+                0.00    0.00   69756/69756       operator*(btMatrix3x3 const&, btMatrix3x3 const&) [36]
+[23]     0.0    0.00    0.00   69756         btMatrix3x3::tdoty(btVector3 const&) const [23]
+                0.00    0.00  279024/453867      btVector3::y() const [15]
+                0.00    0.00   69756/453867      btVector3::x() const [14]
+                0.00    0.00   69756/453867      btVector3::z() const [16]
+-----------------------------------------------
+                0.00    0.00   69756/69756       operator*(btMatrix3x3 const&, btMatrix3x3 const&) [36]
+[24]     0.0    0.00    0.00   69756         btMatrix3x3::tdotz(btVector3 const&) const [24]
+                0.00    0.00  279024/453867      btVector3::z() const [16]
+                0.00    0.00   69756/453867      btVector3::x() const [14]
+                0.00    0.00   69756/453867      btVector3::y() const [15]
+-----------------------------------------------
+                0.00    0.00     456/35486       btTransform::btTransform(btTransform const&) [54]
+                0.00    0.00   35030/35486       btTransform::btTransform(btMatrix3x3 const&, btVector3 const&) [28]
+[25]     0.0    0.00    0.00   35486         btMatrix3x3::btMatrix3x3(btMatrix3x3 const&) [25]
+                0.00    0.00  106458/259264      btVector3::btVector3() [18]
+-----------------------------------------------
+                0.00    0.00     304/35334       btMatrix3x3::setIdentity() [56]
+                0.00    0.00   35030/35334       btMatrix3x3::btMatrix3x3(float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&) [27]
+[26]     0.0    0.00    0.00   35334         btMatrix3x3::setValue(float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&) [26]
+                0.00    0.00  106002/106608      btVector3::setValue(float const&, float const&, float const&) [19]
+-----------------------------------------------
+                0.00    0.00       1/35030       btMatrix3x3::getIdentity() [121]
+                0.00    0.00   11777/35030       btMatrix3x3::transpose() const [40]
+                0.00    0.00   23252/35030       operator*(btMatrix3x3 const&, btMatrix3x3 const&) [36]
+[27]     0.0    0.00    0.00   35030         btMatrix3x3::btMatrix3x3(float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&) [27]
+                0.00    0.00  105090/259264      btVector3::btVector3() [18]
+                0.00    0.00   35030/35334       btMatrix3x3::setValue(float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&) [26]
+-----------------------------------------------
+                0.00    0.00       1/35030       btTransform::getIdentity() [61]
+                0.00    0.00   11777/35030       btTransform::inverse() const [41]
+                0.00    0.00   23252/35030       btTransform::operator*(btTransform const&) const [34]
+[28]     0.0    0.00    0.00   35030         btTransform::btTransform(btMatrix3x3 const&, btVector3 const&) [28]
+                0.00    0.00   35030/35486       btMatrix3x3::btMatrix3x3(btMatrix3x3 const&) [25]
+-----------------------------------------------
+                0.00    0.00   34875/34875       main [12]
+[29]     0.0    0.00    0.00   34875         btTransform::getOrigin() [29]
+-----------------------------------------------
+                0.00    0.00   23402/23402       main [12]
+[30]     0.0    0.00    0.00   23402         btRigidBody::getMotionState() [30]
+-----------------------------------------------
+                0.00    0.00   23252/23252       btTransform::operator=(btTransform const&) [32]
+[31]     0.0    0.00    0.00   23252         btMatrix3x3::operator=(btMatrix3x3 const&) [31]
+-----------------------------------------------
+                0.00    0.00   11475/23252       btDefaultMotionState::setWorldTransform(btTransform const&) [52]
+                0.00    0.00   11777/23252       btDefaultMotionState::getWorldTransform(btTransform&) const [42]
+[32]     0.0    0.00    0.00   23252         btTransform::operator=(btTransform const&) [32]
+                0.00    0.00   23252/23252       btMatrix3x3::operator=(btMatrix3x3 const&) [31]
+-----------------------------------------------
+                0.00    0.00   23252/23252       btTransform::operator*(btTransform const&) const [34]
+[33]     0.0    0.00    0.00   23252         btTransform::operator()(btVector3 const&) const [33]
+                0.00    0.00   69756/314355      btMatrix3x3::operator[](int) const [17]
+                0.00    0.00   23252/23252       btVector3::dot3(btVector3 const&, btVector3 const&, btVector3 const&) const [35]
+                0.00    0.00   23252/23252       operator+(btVector3 const&, btVector3 const&) [37]
+-----------------------------------------------
+                0.00    0.00   11475/23252       btDefaultMotionState::setWorldTransform(btTransform const&) [52]
+                0.00    0.00   11777/23252       btDefaultMotionState::getWorldTransform(btTransform&) const [42]
+[34]     0.0    0.00    0.00   23252         btTransform::operator*(btTransform const&) const [34]
+                0.00    0.00   23252/23252       btTransform::operator()(btVector3 const&) const [33]
+                0.00    0.00   23252/23252       operator*(btMatrix3x3 const&, btMatrix3x3 const&) [36]
+                0.00    0.00   23252/35030       btTransform::btTransform(btMatrix3x3 const&, btVector3 const&) [28]
+-----------------------------------------------
+                0.00    0.00   23252/23252       btTransform::operator()(btVector3 const&) const [33]
+[35]     0.0    0.00    0.00   23252         btVector3::dot3(btVector3 const&, btVector3 const&, btVector3 const&) const [35]
+                0.00    0.00   69756/105087      btVector3::dot(btVector3 const&) const [20]
+                0.00    0.00   23252/70515       btVector3::btVector3(float const&, float const&, float const&) [21]
+-----------------------------------------------
+                0.00    0.00   23252/23252       btTransform::operator*(btTransform const&) const [34]
+[36]     0.0    0.00    0.00   23252         operator*(btMatrix3x3 const&, btMatrix3x3 const&) [36]
+                0.00    0.00  209268/314355      btMatrix3x3::operator[](int) const [17]
+                0.00    0.00   69756/69756       btMatrix3x3::tdotz(btVector3 const&) const [24]
+                0.00    0.00   69756/69756       btMatrix3x3::tdoty(btVector3 const&) const [23]
+                0.00    0.00   69756/69756       btMatrix3x3::tdotx(btVector3 const&) const [22]
+                0.00    0.00   23252/35030       btMatrix3x3::btMatrix3x3(float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&) [27]
+-----------------------------------------------
+                0.00    0.00   23252/23252       btTransform::operator()(btVector3 const&) const [33]
+[37]     0.0    0.00    0.00   23252         operator+(btVector3 const&, btVector3 const&) [37]
+                0.00    0.00   23252/70515       btVector3::btVector3(float const&, float const&, float const&) [21]
+-----------------------------------------------
+                0.00    0.00   11929/11929       btTransform::btTransform() [39]
+[38]     0.0    0.00    0.00   11929         btMatrix3x3::btMatrix3x3() [38]
+                0.00    0.00   35787/259264      btVector3::btVector3() [18]
+-----------------------------------------------
+                0.00    0.00       1/11929       init() [120]
+                0.00    0.00     151/11929       addSphere(float, float, float, float, float) [75]
+                0.00    0.00     152/11929       btRigidBody::btRigidBodyConstructionInfo::btRigidBodyConstructionInfo(float, btMotionState*, btCollisionShape*, btVector3 const&) [60]
+                0.00    0.00   11625/11929       main [12]
+[39]     0.0    0.00    0.00   11929         btTransform::btTransform() [39]
+                0.00    0.00   11929/11929       btMatrix3x3::btMatrix3x3() [38]
+                0.00    0.00   11929/259264      btVector3::btVector3() [18]
+-----------------------------------------------
+                0.00    0.00   11777/11777       btTransform::inverse() const [41]
+[40]     0.0    0.00    0.00   11777         btMatrix3x3::transpose() const [40]
+                0.00    0.00   35331/453867      btVector3::z() const [16]
+                0.00    0.00   35331/453867      btVector3::y() const [15]
+                0.00    0.00   35331/453867      btVector3::x() const [14]
+                0.00    0.00   11777/35030       btMatrix3x3::btMatrix3x3(float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&) [27]
+-----------------------------------------------
+                0.00    0.00   11777/11777       btDefaultMotionState::getWorldTransform(btTransform&) const [42]
+[41]     0.0    0.00    0.00   11777         btTransform::inverse() const [41]
+                0.00    0.00   11777/11777       btMatrix3x3::transpose() const [40]
+                0.00    0.00   11777/11777       operator-(btVector3 const&) [44]
+                0.00    0.00   11777/11777       operator*(btMatrix3x3 const&, btVector3 const&) [43]
+                0.00    0.00   11777/35030       btTransform::btTransform(btMatrix3x3 const&, btVector3 const&) [28]
+-----------------------------------------------
+                0.00    0.00     152/11777       btRigidBody::btRigidBody(btRigidBody::btRigidBodyConstructionInfo const&) [272]
+                0.00    0.00   11625/11777       main [12]
+[42]     0.0    0.00    0.00   11777         btDefaultMotionState::getWorldTransform(btTransform&) const [42]
+                0.00    0.00   11777/11777       btTransform::inverse() const [41]
+                0.00    0.00   11777/23252       btTransform::operator*(btTransform const&) const [34]
+                0.00    0.00   11777/23252       btTransform::operator=(btTransform const&) [32]
+-----------------------------------------------
+                0.00    0.00   11777/11777       btTransform::inverse() const [41]
+[43]     0.0    0.00    0.00   11777         operator*(btMatrix3x3 const&, btVector3 const&) [43]
+                0.00    0.00   35331/314355      btMatrix3x3::operator[](int) const [17]
+                0.00    0.00   35331/105087      btVector3::dot(btVector3 const&) const [20]
+                0.00    0.00   11777/70515       btVector3::btVector3(float const&, float const&, float const&) [21]
+-----------------------------------------------
+                0.00    0.00   11777/11777       btTransform::inverse() const [41]
+[44]     0.0    0.00    0.00   11777         operator-(btVector3 const&) [44]
+                0.00    0.00   11777/70515       btVector3::btVector3(float const&, float const&, float const&) [21]
+-----------------------------------------------
+                0.00    0.00   11625/11625       main [12]
+[45]     0.0    0.00    0.00   11625         btRigidBody::upcast(btCollisionObject*) [45]
+                0.00    0.00   11625/11625       btCollisionObject::getInternalType() const [48]
+-----------------------------------------------
+                0.00    0.00   11625/11625       main [12]
+[46]     0.0    0.00    0.00   11625         btCollisionWorld::getCollisionObjectArray() [46]
+-----------------------------------------------
+                0.00    0.00   11625/11625       main [12]
+[47]     0.0    0.00    0.00   11625         btAlignedObjectArray<btCollisionObject*>::operator[](int) [47]
+-----------------------------------------------
+                0.00    0.00   11625/11625       btRigidBody::upcast(btCollisionObject*) [45]
+[48]     0.0    0.00    0.00   11625         btCollisionObject::getInternalType() const [48]
+-----------------------------------------------
+                0.00    0.00   11625/11625       main [12]
+[49]     0.0    0.00    0.00   11625         btVector3::getX() const [49]
+-----------------------------------------------
+                0.00    0.00   11625/11625       main [12]
+[50]     0.0    0.00    0.00   11625         btVector3::getY() const [50]
+-----------------------------------------------
+                0.00    0.00   11625/11625       main [12]
+[51]     0.0    0.00    0.00   11625         btVector3::getZ() const [51]
+-----------------------------------------------
+                0.00    0.00   11475/11475       btDiscreteDynamicsWorld::updateActivationState(float) [721]
+[52]     0.0    0.00    0.00   11475         btDefaultMotionState::setWorldTransform(btTransform const&) [52]
+                0.00    0.00   11475/23252       btTransform::operator*(btTransform const&) const [34]
+                0.00    0.00   11475/23252       btTransform::operator=(btTransform const&) [32]
+-----------------------------------------------
+                0.00    0.00     608/608         main [12]
+[53]     0.0    0.00    0.00     608         std::vector<btRigidBody*, std::allocator<btRigidBody*> >::operator[](unsigned long) [53]
+-----------------------------------------------
+                0.00    0.00     456/456         btDefaultMotionState::btDefaultMotionState(btTransform const&, btTransform const&) [66]
+[54]     0.0    0.00    0.00     456         btTransform::btTransform(btTransform const&) [54]
+                0.00    0.00     456/35486       btMatrix3x3::btMatrix3x3(btMatrix3x3 const&) [25]
+-----------------------------------------------
+                0.00    0.00       9/313         void std::vector<btRigidBody*, std::allocator<btRigidBody*> >::_M_emplace_back_aux<btRigidBody* const&>(btRigidBody* const&) [107]
+                0.00    0.00     152/313         _ZNSt16allocator_traitsISaIP11btRigidBodyEE9constructIS1_IRKS1_EEEvRS2_PT_DpOT0_ [72]
+                0.00    0.00     152/313         _ZN9__gnu_cxx13new_allocatorIP11btRigidBodyE9constructIS2_IRKS2_EEEvPT_DpOT0_ [71]
+[55]     0.0    0.00    0.00     313         btRigidBody* const& std::forward<btRigidBody* const&>(std::remove_reference<btRigidBody* const&>::type&) [55]
+-----------------------------------------------
+                0.00    0.00     304/304         btTransform::setIdentity() [57]
+[56]     0.0    0.00    0.00     304         btMatrix3x3::setIdentity() [56]
+                0.00    0.00     304/35334       btMatrix3x3::setValue(float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&) [26]
+-----------------------------------------------
+                0.00    0.00       1/304         init() [120]
+                0.00    0.00     151/304         addSphere(float, float, float, float, float) [75]
+                0.00    0.00     152/304         btRigidBody::btRigidBodyConstructionInfo::btRigidBodyConstructionInfo(float, btMotionState*, btCollisionShape*, btVector3 const&) [60]
+[57]     0.0    0.00    0.00     304         btTransform::setIdentity() [57]
+                0.00    0.00     304/304         btMatrix3x3::setIdentity() [56]
+                0.00    0.00     304/106608      btVector3::setValue(float const&, float const&, float const&) [19]
+-----------------------------------------------
+                0.00    0.00       9/198         void std::vector<btRigidBody*, std::allocator<btRigidBody*> >::_M_emplace_back_aux<btRigidBody* const&>(btRigidBody* const&) [107]
+                0.00    0.00      36/198         std::vector<btRigidBody*, std::allocator<btRigidBody*> >::_M_check_len(unsigned long, char const*) const [101]
+                0.00    0.00     153/198         main [12]
+[58]     0.0    0.00    0.00     198         std::vector<btRigidBody*, std::allocator<btRigidBody*> >::size() const [58]
+-----------------------------------------------
+                0.00    0.00     152/152         main [12]
+[59]     0.0    0.00    0.00     152         btRigidBody::getCollisionShape() [59]
+-----------------------------------------------
+                0.00    0.00       1/152         init() [120]
+                0.00    0.00     151/152         addSphere(float, float, float, float, float) [75]
+[60]     0.0    0.00    0.00     152         btRigidBody::btRigidBodyConstructionInfo::btRigidBodyConstructionInfo(float, btMotionState*, btCollisionShape*, btVector3 const&) [60]
+                0.00    0.00     152/11929       btTransform::btTransform() [39]
+                0.00    0.00     152/304         btTransform::setIdentity() [57]
+-----------------------------------------------
+                0.00    0.00       1/152         init() [120]
+                0.00    0.00     151/152         addSphere(float, float, float, float, float) [75]
+[61]     0.0    0.00    0.00     152         btTransform::getIdentity() [61]
+                0.00    0.00       1/70515       btVector3::btVector3(float const&, float const&, float const&) [21]
+                0.00    0.00       1/1           btMatrix3x3::getIdentity() [121]
+                0.00    0.00       1/35030       btTransform::btTransform(btMatrix3x3 const&, btVector3 const&) [28]
+-----------------------------------------------
+                0.00    0.00       1/152         init() [120]
+                0.00    0.00     151/152         addSphere(float, float, float, float, float) [75]
+[62]     0.0    0.00    0.00     152         btTransform::setOrigin(btVector3 const&) [62]
+-----------------------------------------------
+                0.00    0.00     152/152         btDefaultMotionState::btDefaultMotionState(btTransform const&, btTransform const&) [66]
+[63]     0.0    0.00    0.00     152         btMotionState::btMotionState() [63]
+-----------------------------------------------
+                0.00    0.00     152/152         btDefaultMotionState::~btDefaultMotionState() [68]
+[64]     0.0    0.00    0.00     152         btMotionState::~btMotionState() [64]
+-----------------------------------------------
+                0.00    0.00       1/152         init() [120]
+                0.00    0.00     151/152         addSphere(float, float, float, float, float) [75]
+[65]     0.0    0.00    0.00     152         btCollisionObject::operator new(unsigned long) [65]
+-----------------------------------------------
+                0.00    0.00       1/152         init() [120]
+                0.00    0.00     151/152         addSphere(float, float, float, float, float) [75]
+[66]     0.0    0.00    0.00     152         btDefaultMotionState::btDefaultMotionState(btTransform const&, btTransform const&) [66]
+                0.00    0.00     456/456         btTransform::btTransform(btTransform const&) [54]
+                0.00    0.00     152/152         btMotionState::btMotionState() [63]
+-----------------------------------------------
+                0.00    0.00     152/152         main [12]
+[67]     0.0    0.00    0.00     152         btDefaultMotionState::~btDefaultMotionState() [67]
+                0.00    0.00     152/152         btDefaultMotionState::operator delete(void*) [69]
+                0.00    0.00     152/152         btDefaultMotionState::~btDefaultMotionState() [68]
+-----------------------------------------------
+                0.00    0.00     152/152         btDefaultMotionState::~btDefaultMotionState() [67]
+[68]     0.0    0.00    0.00     152         btDefaultMotionState::~btDefaultMotionState() [68]
+                0.00    0.00     152/152         btMotionState::~btMotionState() [64]
+-----------------------------------------------
+                0.00    0.00     152/152         btDefaultMotionState::~btDefaultMotionState() [67]
+[69]     0.0    0.00    0.00     152         btDefaultMotionState::operator delete(void*) [69]
+-----------------------------------------------
+                0.00    0.00       1/152         init() [120]
+                0.00    0.00     151/152         addSphere(float, float, float, float, float) [75]
+[70]     0.0    0.00    0.00     152         btDefaultMotionState::operator new(unsigned long) [70]
+-----------------------------------------------
+                0.00    0.00     152/152         _ZNSt16allocator_traitsISaIP11btRigidBodyEE9constructIS1_IRKS1_EEEvRS2_PT_DpOT0_ [72]
+[71]     0.0    0.00    0.00     152         _ZN9__gnu_cxx13new_allocatorIP11btRigidBodyE9constructIS2_IRKS2_EEEvPT_DpOT0_ [71]
+                0.00    0.00     152/313         btRigidBody* const& std::forward<btRigidBody* const&>(std::remove_reference<btRigidBody* const&>::type&) [55]
+                0.00    0.00     152/152         operator new(unsigned long, void*) [74]
+-----------------------------------------------
+                0.00    0.00       9/152         void std::vector<btRigidBody*, std::allocator<btRigidBody*> >::_M_emplace_back_aux<btRigidBody* const&>(btRigidBody* const&) [107]
+                0.00    0.00     143/152         std::vector<btRigidBody*, std::allocator<btRigidBody*> >::push_back(btRigidBody* const&) [73]
+[72]     0.0    0.00    0.00     152         _ZNSt16allocator_traitsISaIP11btRigidBodyEE9constructIS1_IRKS1_EEEvRS2_PT_DpOT0_ [72]
+                0.00    0.00     152/313         btRigidBody* const& std::forward<btRigidBody* const&>(std::remove_reference<btRigidBody* const&>::type&) [55]
+                0.00    0.00     152/152         _ZN9__gnu_cxx13new_allocatorIP11btRigidBodyE9constructIS2_IRKS2_EEEvPT_DpOT0_ [71]
+-----------------------------------------------
+                0.00    0.00       1/152         init() [120]
+                0.00    0.00     151/152         addSphere(float, float, float, float, float) [75]
+[73]     0.0    0.00    0.00     152         std::vector<btRigidBody*, std::allocator<btRigidBody*> >::push_back(btRigidBody* const&) [73]
+                0.00    0.00     143/152         _ZNSt16allocator_traitsISaIP11btRigidBodyEE9constructIS1_IRKS1_EEEvRS2_PT_DpOT0_ [72]
+                0.00    0.00       9/9           void std::vector<btRigidBody*, std::allocator<btRigidBody*> >::_M_emplace_back_aux<btRigidBody* const&>(btRigidBody* const&) [107]
+-----------------------------------------------
+                0.00    0.00     152/152         _ZN9__gnu_cxx13new_allocatorIP11btRigidBodyE9constructIS2_IRKS2_EEEvPT_DpOT0_ [71]
+[74]     0.0    0.00    0.00     152         operator new(unsigned long, void*) [74]
+-----------------------------------------------
+                0.00    0.00       1/151         init() [120]
+                0.00    0.00     150/151         main [12]
+[75]     0.0    0.00    0.00     151         addSphere(float, float, float, float, float) [75]
+                0.00    0.00     302/70515       btVector3::btVector3(float const&, float const&, float const&) [21]
+                0.00    0.00     151/11929       btTransform::btTransform() [39]
+                0.00    0.00     151/304         btTransform::setIdentity() [57]
+                0.00    0.00     151/152         btTransform::setOrigin(btVector3 const&) [62]
+                0.00    0.00     151/151         btSphereShape::operator new(unsigned long) [77]
+                0.00    0.00     151/151         btSphereShape::btSphereShape(float) [76]
+                0.00    0.00     151/152         btTransform::getIdentity() [61]
+                0.00    0.00     151/152         btDefaultMotionState::operator new(unsigned long) [70]
+                0.00    0.00     151/152         btDefaultMotionState::btDefaultMotionState(btTransform const&, btTransform const&) [66]
+                0.00    0.00     151/152         btRigidBody::btRigidBodyConstructionInfo::btRigidBodyConstructionInfo(float, btMotionState*, btCollisionShape*, btVector3 const&) [60]
+                0.00    0.00     151/152         btCollisionObject::operator new(unsigned long) [65]
+                0.00    0.00     151/152         std::vector<btRigidBody*, std::allocator<btRigidBody*> >::push_back(btRigidBody* const&) [73]
+-----------------------------------------------
+                0.00    0.00     151/151         addSphere(float, float, float, float, float) [75]
+[76]     0.0    0.00    0.00     151         btSphereShape::btSphereShape(float) [76]
+                0.00    0.00     151/106608      btVector3::setValue(float const&, float const&, float const&) [19]
+                0.00    0.00     151/151         btVector3::setZero() [79]
+                0.00    0.00     151/151         btVector3::setX(float) [78]
+-----------------------------------------------
+                0.00    0.00     151/151         addSphere(float, float, float, float, float) [75]
+[77]     0.0    0.00    0.00     151         btSphereShape::operator new(unsigned long) [77]
+-----------------------------------------------
+                0.00    0.00     151/151         btSphereShape::btSphereShape(float) [76]
+[78]     0.0    0.00    0.00     151         btVector3::setX(float) [78]
+-----------------------------------------------
+                0.00    0.00     151/151         btSphereShape::btSphereShape(float) [76]
+[79]     0.0    0.00    0.00     151         btVector3::setZero() [79]
+                0.00    0.00     151/106608      btVector3::setValue(float const&, float const&, float const&) [19]
+-----------------------------------------------
+                0.00    0.00     150/150         main [12]
+[80]     0.0    0.00    0.00     150         btRigidBody::setLinearVelocity(btVector3 const&) [80]
+-----------------------------------------------
+                0.00    0.00     150/150         main [12]
+[81]     0.0    0.00    0.00     150         btCollisionWorld::getNumCollisionObjects() const [81]
+                0.00    0.00     150/150         btAlignedObjectArray<btCollisionObject*>::size() const [82]
+-----------------------------------------------
+                0.00    0.00     150/150         btCollisionWorld::getNumCollisionObjects() const [81]
+[82]     0.0    0.00    0.00     150         btAlignedObjectArray<btCollisionObject*>::size() const [82]
+-----------------------------------------------
+                0.00    0.00       9/27          __gnu_cxx::new_allocator<btRigidBody*>::allocate(unsigned long, void const*) [100]
+                0.00    0.00      18/27          std::allocator_traits<std::allocator<btRigidBody*> >::max_size(std::allocator<btRigidBody*> const&) [92]
+[83]     0.0    0.00    0.00      27         __gnu_cxx::new_allocator<btRigidBody*>::max_size() const [83]
+-----------------------------------------------
+                0.00    0.00      27/27          std::_Niter_base<btRigidBody**>::iterator_type std::__niter_base<btRigidBody**>(btRigidBody**) [85]
+[84]     0.0    0.00    0.00      27         std::_Iter_base<btRigidBody**, false>::_S_base(btRigidBody**) [84]
+-----------------------------------------------
+                0.00    0.00      27/27          btRigidBody** std::__copy_move_a2<true, btRigidBody**, btRigidBody**>(btRigidBody**, btRigidBody**, btRigidBody**) [109]
+[85]     0.0    0.00    0.00      27         std::_Niter_base<btRigidBody**>::iterator_type std::__niter_base<btRigidBody**>(btRigidBody**) [85]
+                0.00    0.00      27/27          std::_Iter_base<btRigidBody**, false>::_S_base(btRigidBody**) [84]
+-----------------------------------------------
+                0.00    0.00       1/19          std::vector<btRigidBody*, std::allocator<btRigidBody*> >::~vector() [1255]
+                0.00    0.00      18/19          void std::vector<btRigidBody*, std::allocator<btRigidBody*> >::_M_emplace_back_aux<btRigidBody* const&>(btRigidBody* const&) [107]
+[86]     0.0    0.00    0.00      19         std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_M_get_Tp_allocator() [86]
+-----------------------------------------------
+                0.00    0.00      18/18          std::vector<btRigidBody*, std::allocator<btRigidBody*> >::max_size() const [89]
+[87]     0.0    0.00    0.00      18         std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_M_get_Tp_allocator() const [87]
+-----------------------------------------------
+                0.00    0.00      18/18          std::_Iter_base<std::move_iterator<btRigidBody**>, true>::_S_base(std::move_iterator<btRigidBody**>) [90]
+[88]     0.0    0.00    0.00      18         std::move_iterator<btRigidBody**>::base() const [88]
+-----------------------------------------------
+                0.00    0.00      18/18          std::vector<btRigidBody*, std::allocator<btRigidBody*> >::_M_check_len(unsigned long, char const*) const [101]
+[89]     0.0    0.00    0.00      18         std::vector<btRigidBody*, std::allocator<btRigidBody*> >::max_size() const [89]
+                0.00    0.00      18/18          std::allocator_traits<std::allocator<btRigidBody*> >::max_size(std::allocator<btRigidBody*> const&) [92]
+                0.00    0.00      18/18          std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_M_get_Tp_allocator() const [87]
+-----------------------------------------------
+                0.00    0.00      18/18          std::_Miter_base<std::move_iterator<btRigidBody**> >::iterator_type std::__miter_base<std::move_iterator<btRigidBody**> >(std::move_iterator<btRigidBody**>) [93]
+[90]     0.0    0.00    0.00      18         std::_Iter_base<std::move_iterator<btRigidBody**>, true>::_S_base(std::move_iterator<btRigidBody**>) [90]
+                0.00    0.00      18/18          std::move_iterator<btRigidBody**>::base() const [88]
+-----------------------------------------------
+                0.00    0.00      18/18          std::move_iterator<btRigidBody**> std::__make_move_if_noexcept_iterator<btRigidBody**, std::move_iterator<btRigidBody**> >(btRigidBody**) [94]
+[91]     0.0    0.00    0.00      18         std::move_iterator<btRigidBody**>::move_iterator(btRigidBody**) [91]
+-----------------------------------------------
+                0.00    0.00      18/18          std::vector<btRigidBody*, std::allocator<btRigidBody*> >::max_size() const [89]
+[92]     0.0    0.00    0.00      18         std::allocator_traits<std::allocator<btRigidBody*> >::max_size(std::allocator<btRigidBody*> const&) [92]
+                0.00    0.00      18/27          __gnu_cxx::new_allocator<btRigidBody*>::max_size() const [83]
+-----------------------------------------------
+                0.00    0.00      18/18          btRigidBody** std::copy<std::move_iterator<btRigidBody**>, btRigidBody**>(std::move_iterator<btRigidBody**>, std::move_iterator<btRigidBody**>, btRigidBody**) [114]
+[93]     0.0    0.00    0.00      18         std::_Miter_base<std::move_iterator<btRigidBody**> >::iterator_type std::__miter_base<std::move_iterator<btRigidBody**> >(std::move_iterator<btRigidBody**>) [93]
+                0.00    0.00      18/18          std::_Iter_base<std::move_iterator<btRigidBody**>, true>::_S_base(std::move_iterator<btRigidBody**>) [90]
+-----------------------------------------------
+                0.00    0.00      18/18          btRigidBody** std::__uninitialized_move_if_noexcept_a<btRigidBody**, btRigidBody**, std::allocator<btRigidBody*> >(btRigidBody**, btRigidBody**, btRigidBody**, std::allocator<btRigidBody*>&) [112]
+[94]     0.0    0.00    0.00      18         std::move_iterator<btRigidBody**> std::__make_move_if_noexcept_iterator<btRigidBody**, std::move_iterator<btRigidBody**> >(btRigidBody**) [94]
+                0.00    0.00      18/18          std::move_iterator<btRigidBody**>::move_iterator(btRigidBody**) [91]
+-----------------------------------------------
+                0.00    0.00      10/10          void std::_Destroy<btRigidBody**>(btRigidBody**, btRigidBody**) [97]
+[95]     0.0    0.00    0.00      10         void std::_Destroy_aux<true>::__destroy<btRigidBody**>(btRigidBody**, btRigidBody**) [95]
+-----------------------------------------------
+                0.00    0.00       1/10          std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::~_Vector_base() [135]
+                0.00    0.00       9/10          void std::vector<btRigidBody*, std::allocator<btRigidBody*> >::_M_emplace_back_aux<btRigidBody* const&>(btRigidBody* const&) [107]
+[96]     0.0    0.00    0.00      10         std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_M_deallocate(btRigidBody**, unsigned long) [96]
+                0.00    0.00       9/9           std::allocator_traits<std::allocator<btRigidBody*> >::deallocate(std::allocator<btRigidBody*>&, btRigidBody**, unsigned long) [104]
+-----------------------------------------------
+                0.00    0.00      10/10          void std::_Destroy<btRigidBody**, btRigidBody*>(btRigidBody**, btRigidBody**, std::allocator<btRigidBody*>&) [98]
+[97]     0.0    0.00    0.00      10         void std::_Destroy<btRigidBody**>(btRigidBody**, btRigidBody**) [97]
+                0.00    0.00      10/10          void std::_Destroy_aux<true>::__destroy<btRigidBody**>(btRigidBody**, btRigidBody**) [95]
+-----------------------------------------------
+                0.00    0.00       1/10          std::vector<btRigidBody*, std::allocator<btRigidBody*> >::~vector() [1255]
+                0.00    0.00       9/10          void std::vector<btRigidBody*, std::allocator<btRigidBody*> >::_M_emplace_back_aux<btRigidBody* const&>(btRigidBody* const&) [107]
+[98]     0.0    0.00    0.00      10         void std::_Destroy<btRigidBody**, btRigidBody*>(btRigidBody**, btRigidBody**, std::allocator<btRigidBody*>&) [98]
+                0.00    0.00      10/10          void std::_Destroy<btRigidBody**>(btRigidBody**, btRigidBody**) [97]
+-----------------------------------------------
+                0.00    0.00       9/9           std::allocator_traits<std::allocator<btRigidBody*> >::deallocate(std::allocator<btRigidBody*>&, btRigidBody**, unsigned long) [104]
+[99]     0.0    0.00    0.00       9         __gnu_cxx::new_allocator<btRigidBody*>::deallocate(btRigidBody**, unsigned long) [99]
+-----------------------------------------------
+                0.00    0.00       9/9           std::allocator_traits<std::allocator<btRigidBody*> >::allocate(std::allocator<btRigidBody*>&, unsigned long) [105]
+[100]    0.0    0.00    0.00       9         __gnu_cxx::new_allocator<btRigidBody*>::allocate(unsigned long, void const*) [100]
+                0.00    0.00       9/27          __gnu_cxx::new_allocator<btRigidBody*>::max_size() const [83]
+-----------------------------------------------
+                0.00    0.00       9/9           void std::vector<btRigidBody*, std::allocator<btRigidBody*> >::_M_emplace_back_aux<btRigidBody* const&>(btRigidBody* const&) [107]
+[101]    0.0    0.00    0.00       9         std::vector<btRigidBody*, std::allocator<btRigidBody*> >::_M_check_len(unsigned long, char const*) const [101]
+                0.00    0.00      36/198         std::vector<btRigidBody*, std::allocator<btRigidBody*> >::size() const [58]
+                0.00    0.00      18/18          std::vector<btRigidBody*, std::allocator<btRigidBody*> >::max_size() const [89]
+                0.00    0.00       9/9           unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) [113]
+-----------------------------------------------
+                0.00    0.00       9/9           btRigidBody** std::__copy_move_a<true, btRigidBody**, btRigidBody**>(btRigidBody**, btRigidBody**, btRigidBody**) [108]
+[102]    0.0    0.00    0.00       9         btRigidBody** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<btRigidBody*>(btRigidBody* const*, btRigidBody* const*, btRigidBody**) [102]
+-----------------------------------------------
+                0.00    0.00       9/9           void std::vector<btRigidBody*, std::allocator<btRigidBody*> >::_M_emplace_back_aux<btRigidBody* const&>(btRigidBody* const&) [107]
+[103]    0.0    0.00    0.00       9         std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_M_allocate(unsigned long) [103]
+                0.00    0.00       9/9           std::allocator_traits<std::allocator<btRigidBody*> >::allocate(std::allocator<btRigidBody*>&, unsigned long) [105]
+-----------------------------------------------
+                0.00    0.00       9/9           std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_M_deallocate(btRigidBody**, unsigned long) [96]
+[104]    0.0    0.00    0.00       9         std::allocator_traits<std::allocator<btRigidBody*> >::deallocate(std::allocator<btRigidBody*>&, btRigidBody**, unsigned long) [104]
+                0.00    0.00       9/9           __gnu_cxx::new_allocator<btRigidBody*>::deallocate(btRigidBody**, unsigned long) [99]
+-----------------------------------------------
+                0.00    0.00       9/9           std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_M_allocate(unsigned long) [103]
+[105]    0.0    0.00    0.00       9         std::allocator_traits<std::allocator<btRigidBody*> >::allocate(std::allocator<btRigidBody*>&, unsigned long) [105]
+                0.00    0.00       9/9           __gnu_cxx::new_allocator<btRigidBody*>::allocate(unsigned long, void const*) [100]
+-----------------------------------------------
+                0.00    0.00       9/9           btRigidBody** std::uninitialized_copy<std::move_iterator<btRigidBody**>, btRigidBody**>(std::move_iterator<btRigidBody**>, std::move_iterator<btRigidBody**>, btRigidBody**) [110]
+[106]    0.0    0.00    0.00       9         btRigidBody** std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<btRigidBody**>, btRigidBody**>(std::move_iterator<btRigidBody**>, std::move_iterator<btRigidBody**>, btRigidBody**) [106]
+                0.00    0.00       9/9           btRigidBody** std::copy<std::move_iterator<btRigidBody**>, btRigidBody**>(std::move_iterator<btRigidBody**>, std::move_iterator<btRigidBody**>, btRigidBody**) [114]
+-----------------------------------------------
+                0.00    0.00       9/9           std::vector<btRigidBody*, std::allocator<btRigidBody*> >::push_back(btRigidBody* const&) [73]
+[107]    0.0    0.00    0.00       9         void std::vector<btRigidBody*, std::allocator<btRigidBody*> >::_M_emplace_back_aux<btRigidBody* const&>(btRigidBody* const&) [107]
+                0.00    0.00      18/19          std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_M_get_Tp_allocator() [86]
+                0.00    0.00       9/9           std::vector<btRigidBody*, std::allocator<btRigidBody*> >::_M_check_len(unsigned long, char const*) const [101]
+                0.00    0.00       9/9           std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_M_allocate(unsigned long) [103]
+                0.00    0.00       9/313         btRigidBody* const& std::forward<btRigidBody* const&>(std::remove_reference<btRigidBody* const&>::type&) [55]
+                0.00    0.00       9/198         std::vector<btRigidBody*, std::allocator<btRigidBody*> >::size() const [58]
+                0.00    0.00       9/152         _ZNSt16allocator_traitsISaIP11btRigidBodyEE9constructIS1_IRKS1_EEEvRS2_PT_DpOT0_ [72]
+                0.00    0.00       9/9           btRigidBody** std::__uninitialized_move_if_noexcept_a<btRigidBody**, btRigidBody**, std::allocator<btRigidBody*> >(btRigidBody**, btRigidBody**, btRigidBody**, std::allocator<btRigidBody*>&) [112]
+                0.00    0.00       9/10          void std::_Destroy<btRigidBody**, btRigidBody*>(btRigidBody**, btRigidBody**, std::allocator<btRigidBody*>&) [98]
+                0.00    0.00       9/10          std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_M_deallocate(btRigidBody**, unsigned long) [96]
+-----------------------------------------------
+                0.00    0.00       9/9           btRigidBody** std::__copy_move_a2<true, btRigidBody**, btRigidBody**>(btRigidBody**, btRigidBody**, btRigidBody**) [109]
+[108]    0.0    0.00    0.00       9         btRigidBody** std::__copy_move_a<true, btRigidBody**, btRigidBody**>(btRigidBody**, btRigidBody**, btRigidBody**) [108]
+                0.00    0.00       9/9           btRigidBody** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<btRigidBody*>(btRigidBody* const*, btRigidBody* const*, btRigidBody**) [102]
+-----------------------------------------------
+                0.00    0.00       9/9           btRigidBody** std::copy<std::move_iterator<btRigidBody**>, btRigidBody**>(std::move_iterator<btRigidBody**>, std::move_iterator<btRigidBody**>, btRigidBody**) [114]
+[109]    0.0    0.00    0.00       9         btRigidBody** std::__copy_move_a2<true, btRigidBody**, btRigidBody**>(btRigidBody**, btRigidBody**, btRigidBody**) [109]
+                0.00    0.00      27/27          std::_Niter_base<btRigidBody**>::iterator_type std::__niter_base<btRigidBody**>(btRigidBody**) [85]
+                0.00    0.00       9/9           btRigidBody** std::__copy_move_a<true, btRigidBody**, btRigidBody**>(btRigidBody**, btRigidBody**, btRigidBody**) [108]
+-----------------------------------------------
+                0.00    0.00       9/9           btRigidBody** std::__uninitialized_copy_a<std::move_iterator<btRigidBody**>, btRigidBody**, btRigidBody*>(std::move_iterator<btRigidBody**>, std::move_iterator<btRigidBody**>, btRigidBody**, std::allocator<btRigidBody*>&) [111]
+[110]    0.0    0.00    0.00       9         btRigidBody** std::uninitialized_copy<std::move_iterator<btRigidBody**>, btRigidBody**>(std::move_iterator<btRigidBody**>, std::move_iterator<btRigidBody**>, btRigidBody**) [110]
+                0.00    0.00       9/9           btRigidBody** std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<btRigidBody**>, btRigidBody**>(std::move_iterator<btRigidBody**>, std::move_iterator<btRigidBody**>, btRigidBody**) [106]
+-----------------------------------------------
+                0.00    0.00       9/9           btRigidBody** std::__uninitialized_move_if_noexcept_a<btRigidBody**, btRigidBody**, std::allocator<btRigidBody*> >(btRigidBody**, btRigidBody**, btRigidBody**, std::allocator<btRigidBody*>&) [112]
+[111]    0.0    0.00    0.00       9         btRigidBody** std::__uninitialized_copy_a<std::move_iterator<btRigidBody**>, btRigidBody**, btRigidBody*>(std::move_iterator<btRigidBody**>, std::move_iterator<btRigidBody**>, btRigidBody**, std::allocator<btRigidBody*>&) [111]
+                0.00    0.00       9/9           btRigidBody** std::uninitialized_copy<std::move_iterator<btRigidBody**>, btRigidBody**>(std::move_iterator<btRigidBody**>, std::move_iterator<btRigidBody**>, btRigidBody**) [110]
+-----------------------------------------------
+                0.00    0.00       9/9           void std::vector<btRigidBody*, std::allocator<btRigidBody*> >::_M_emplace_back_aux<btRigidBody* const&>(btRigidBody* const&) [107]
+[112]    0.0    0.00    0.00       9         btRigidBody** std::__uninitialized_move_if_noexcept_a<btRigidBody**, btRigidBody**, std::allocator<btRigidBody*> >(btRigidBody**, btRigidBody**, btRigidBody**, std::allocator<btRigidBody*>&) [112]
+                0.00    0.00      18/18          std::move_iterator<btRigidBody**> std::__make_move_if_noexcept_iterator<btRigidBody**, std::move_iterator<btRigidBody**> >(btRigidBody**) [94]
+                0.00    0.00       9/9           btRigidBody** std::__uninitialized_copy_a<std::move_iterator<btRigidBody**>, btRigidBody**, btRigidBody*>(std::move_iterator<btRigidBody**>, std::move_iterator<btRigidBody**>, btRigidBody**, std::allocator<btRigidBody*>&) [111]
+-----------------------------------------------
+                0.00    0.00       9/9           std::vector<btRigidBody*, std::allocator<btRigidBody*> >::_M_check_len(unsigned long, char const*) const [101]
+[113]    0.0    0.00    0.00       9         unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) [113]
+-----------------------------------------------
+                0.00    0.00       9/9           btRigidBody** std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<btRigidBody**>, btRigidBody**>(std::move_iterator<btRigidBody**>, std::move_iterator<btRigidBody**>, btRigidBody**) [106]
+[114]    0.0    0.00    0.00       9         btRigidBody** std::copy<std::move_iterator<btRigidBody**>, btRigidBody**>(std::move_iterator<btRigidBody**>, std::move_iterator<btRigidBody**>, btRigidBody**) [114]
+                0.00    0.00      18/18          std::_Miter_base<std::move_iterator<btRigidBody**> >::iterator_type std::__miter_base<std::move_iterator<btRigidBody**> >(std::move_iterator<btRigidBody**>) [93]
+                0.00    0.00       9/9           btRigidBody** std::__copy_move_a2<true, btRigidBody**, btRigidBody**>(btRigidBody**, btRigidBody**, btRigidBody**) [109]
+-----------------------------------------------
+                0.00    0.00       1/4           std::chrono::duration<long, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<long, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, long, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [139]
+                0.00    0.00       1/4           std::chrono::duration<double, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [138]
+                0.00    0.00       2/4           std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [146]
+[115]    0.0    0.00    0.00       4         std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [115]
+-----------------------------------------------
+                0.00    0.00       1/3           std::chrono::_V2::system_clock::to_time_t(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [140]
+                0.00    0.00       2/3           std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [145]
+[116]    0.0    0.00    0.00       3         std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const [116]
+-----------------------------------------------
+                0.00    0.00       1/2           main [12]
+                0.00    0.00       1/2           std::chrono::duration<double, std::ratio<1l, 1l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [142]
+[117]    0.0    0.00    0.00       2         std::chrono::duration<double, std::ratio<1l, 1l> >::count() const [117]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [1331]
+[118]    0.0    0.00    0.00       1         _GLOBAL__sub_I_world [118]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [119]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I_world [118]
+[119]    0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [119]
+                0.00    0.00       1/1           btInfMaskConverter::btInfMaskConverter(int) [122]
+                0.00    0.00       1/1           std::vector<btRigidBody*, std::allocator<btRigidBody*> >::vector() [147]
+-----------------------------------------------
+                0.00    0.00       1/1           main [12]
+[120]    0.0    0.00    0.00       1         init() [120]
+                0.00    0.00       4/70515       btVector3::btVector3(float const&, float const&, float const&) [21]
+                0.00    0.00       1/1           btDefaultCollisionConstructionInfo::btDefaultCollisionConstructionInfo() [125]
+                0.00    0.00       1/1           btSequentialImpulseConstraintSolver::operator new(unsigned long) [126]
+                0.00    0.00       1/1           btDiscreteDynamicsWorld::operator new(unsigned long) [124]
+                0.00    0.00       1/11929       btTransform::btTransform() [39]
+                0.00    0.00       1/304         btTransform::setIdentity() [57]
+                0.00    0.00       1/152         btTransform::setOrigin(btVector3 const&) [62]
+                0.00    0.00       1/1           btStaticPlaneShape::operator new(unsigned long) [123]
+                0.00    0.00       1/152         btTransform::getIdentity() [61]
+                0.00    0.00       1/152         btDefaultMotionState::operator new(unsigned long) [70]
+                0.00    0.00       1/152         btDefaultMotionState::btDefaultMotionState(btTransform const&, btTransform const&) [66]
+                0.00    0.00       1/152         btRigidBody::btRigidBodyConstructionInfo::btRigidBodyConstructionInfo(float, btMotionState*, btCollisionShape*, btVector3 const&) [60]
+                0.00    0.00       1/152         btCollisionObject::operator new(unsigned long) [65]
+                0.00    0.00       1/152         std::vector<btRigidBody*, std::allocator<btRigidBody*> >::push_back(btRigidBody* const&) [73]
+                0.00    0.00       1/151         addSphere(float, float, float, float, float) [75]
+-----------------------------------------------
+                0.00    0.00       1/1           btTransform::getIdentity() [61]
+[121]    0.0    0.00    0.00       1         btMatrix3x3::getIdentity() [121]
+                0.00    0.00       1/35030       btMatrix3x3::btMatrix3x3(float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&) [27]
+-----------------------------------------------
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [119]
+[122]    0.0    0.00    0.00       1         btInfMaskConverter::btInfMaskConverter(int) [122]
+-----------------------------------------------
+                0.00    0.00       1/1           init() [120]
+[123]    0.0    0.00    0.00       1         btStaticPlaneShape::operator new(unsigned long) [123]
+-----------------------------------------------
+                0.00    0.00       1/1           init() [120]
+[124]    0.0    0.00    0.00       1         btDiscreteDynamicsWorld::operator new(unsigned long) [124]
+-----------------------------------------------
+                0.00    0.00       1/1           init() [120]
+[125]    0.0    0.00    0.00       1         btDefaultCollisionConstructionInfo::btDefaultCollisionConstructionInfo() [125]
+-----------------------------------------------
+                0.00    0.00       1/1           init() [120]
+[126]    0.0    0.00    0.00       1         btSequentialImpulseConstraintSolver::operator new(unsigned long) [126]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<btRigidBody*>::allocator() [130]
+[127]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<btRigidBody*>::new_allocator() [127]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<btRigidBody*>::~allocator() [131]
+[128]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<btRigidBody*>::~new_allocator() [128]
+-----------------------------------------------
+                0.00    0.00       1/1           std::chrono::_V2::system_clock::to_time_t(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [140]
+[129]    0.0    0.00    0.00       1         std::chrono::duration<long, std::ratio<1l, 1l> >::count() const [129]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_Vector_impl::_Vector_impl() [132]
+[130]    0.0    0.00    0.00       1         std::allocator<btRigidBody*>::allocator() [130]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<btRigidBody*>::new_allocator() [127]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_Vector_impl::~_Vector_impl() [133]
+[131]    0.0    0.00    0.00       1         std::allocator<btRigidBody*>::~allocator() [131]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<btRigidBody*>::~new_allocator() [128]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_Vector_base() [134]
+[132]    0.0    0.00    0.00       1         std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_Vector_impl::_Vector_impl() [132]
+                0.00    0.00       1/1           std::allocator<btRigidBody*>::allocator() [130]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::~_Vector_base() [135]
+[133]    0.0    0.00    0.00       1         std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_Vector_impl::~_Vector_impl() [133]
+                0.00    0.00       1/1           std::allocator<btRigidBody*>::~allocator() [131]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<btRigidBody*, std::allocator<btRigidBody*> >::vector() [147]
+[134]    0.0    0.00    0.00       1         std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_Vector_base() [134]
+                0.00    0.00       1/1           std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_Vector_impl::_Vector_impl() [132]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<btRigidBody*, std::allocator<btRigidBody*> >::~vector() [1255]
+[135]    0.0    0.00    0.00       1         std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::~_Vector_base() [135]
+                0.00    0.00       1/10          std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_M_deallocate(btRigidBody**, unsigned long) [96]
+                0.00    0.00       1/1           std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_Vector_impl::~_Vector_impl() [133]
+-----------------------------------------------
+                0.00    0.00       1/1           std::chrono::duration<double, std::ratio<1l, 1l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [142]
+[136]    0.0    0.00    0.00       1         std::enable_if<std::chrono::__is_duration<std::chrono::duration<double, std::ratio<1l, 1l> > >::value, std::chrono::duration<double, std::ratio<1l, 1l> > >::type std::chrono::duration_cast<std::chrono::duration<double, std::ratio<1l, 1l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [136]
+                0.00    0.00       1/1           std::chrono::duration<double, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [138]
+-----------------------------------------------
+                0.00    0.00       1/1           std::chrono::_V2::system_clock::to_time_t(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [140]
+[137]    0.0    0.00    0.00       1         std::enable_if<std::chrono::__is_duration<std::chrono::duration<long, std::ratio<1l, 1l> > >::value, std::chrono::duration<long, std::ratio<1l, 1l> > >::type std::chrono::duration_cast<std::chrono::duration<long, std::ratio<1l, 1l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [137]
+                0.00    0.00       1/1           std::chrono::duration<long, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<long, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, long, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [139]
+-----------------------------------------------
+                0.00    0.00       1/1           std::enable_if<std::chrono::__is_duration<std::chrono::duration<double, std::ratio<1l, 1l> > >::value, std::chrono::duration<double, std::ratio<1l, 1l> > >::type std::chrono::duration_cast<std::chrono::duration<double, std::ratio<1l, 1l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [136]
+[138]    0.0    0.00    0.00       1         std::chrono::duration<double, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [138]
+                0.00    0.00       1/4           std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [115]
+                0.00    0.00       1/1           std::chrono::duration<double, std::ratio<1l, 1l> >::duration<double, void>(double const&) [141]
+-----------------------------------------------
+                0.00    0.00       1/1           std::enable_if<std::chrono::__is_duration<std::chrono::duration<long, std::ratio<1l, 1l> > >::value, std::chrono::duration<long, std::ratio<1l, 1l> > >::type std::chrono::duration_cast<std::chrono::duration<long, std::ratio<1l, 1l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [137]
+[139]    0.0    0.00    0.00       1         std::chrono::duration<long, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<long, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, long, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [139]
+                0.00    0.00       1/4           std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [115]
+                0.00    0.00       1/1           std::chrono::duration<long, std::ratio<1l, 1l> >::duration<long, void>(long const&) [144]
+-----------------------------------------------
+                0.00    0.00       1/1           main [12]
+[140]    0.0    0.00    0.00       1         std::chrono::_V2::system_clock::to_time_t(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [140]
+                0.00    0.00       1/3           std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const [116]
+                0.00    0.00       1/1           std::enable_if<std::chrono::__is_duration<std::chrono::duration<long, std::ratio<1l, 1l> > >::value, std::chrono::duration<long, std::ratio<1l, 1l> > >::type std::chrono::duration_cast<std::chrono::duration<long, std::ratio<1l, 1l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [137]
+                0.00    0.00       1/1           std::chrono::duration<long, std::ratio<1l, 1l> >::count() const [129]
+-----------------------------------------------
+                0.00    0.00       1/1           std::chrono::duration<double, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [138]
+[141]    0.0    0.00    0.00       1         std::chrono::duration<double, std::ratio<1l, 1l> >::duration<double, void>(double const&) [141]
+-----------------------------------------------
+                0.00    0.00       1/1           main [12]
+[142]    0.0    0.00    0.00       1         std::chrono::duration<double, std::ratio<1l, 1l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [142]
+                0.00    0.00       1/1           std::enable_if<std::chrono::__is_duration<std::chrono::duration<double, std::ratio<1l, 1l> > >::value, std::chrono::duration<double, std::ratio<1l, 1l> > >::type std::chrono::duration_cast<std::chrono::duration<double, std::ratio<1l, 1l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [136]
+                0.00    0.00       1/2           std::chrono::duration<double, std::ratio<1l, 1l> >::count() const [117]
+-----------------------------------------------
+                0.00    0.00       1/1           std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [146]
+[143]    0.0    0.00    0.00       1         std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&) [143]
+-----------------------------------------------
+                0.00    0.00       1/1           std::chrono::duration<long, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<long, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, long, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [139]
+[144]    0.0    0.00    0.00       1         std::chrono::duration<long, std::ratio<1l, 1l> >::duration<long, void>(long const&) [144]
+-----------------------------------------------
+                0.00    0.00       1/1           main [12]
+[145]    0.0    0.00    0.00       1         std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [145]
+                0.00    0.00       2/3           std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const [116]
+                0.00    0.00       1/1           std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [146]
+-----------------------------------------------
+                0.00    0.00       1/1           std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [145]
+[146]    0.0    0.00    0.00       1         std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [146]
+                0.00    0.00       2/4           std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [115]
+                0.00    0.00       1/1           std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&) [143]
+-----------------------------------------------
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [119]
+[147]    0.0    0.00    0.00       1         std::vector<btRigidBody*, std::allocator<btRigidBody*> >::vector() [147]
+                0.00    0.00       1/1           std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_Vector_base() [134]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2015 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+ [118] _GLOBAL__sub_I_world   [99] __gnu_cxx::new_allocator<btRigidBody*>::deallocate(btRigidBody**, unsigned long) [103] std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_M_allocate(unsigned long)
+ [119] __static_initialization_and_destruction_0(int, int) [100] __gnu_cxx::new_allocator<btRigidBody*>::allocate(unsigned long, void const*) [132] std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_Vector_impl::_Vector_impl()
+ [120] init()                 [71] _ZN9__gnu_cxx13new_allocatorIP11btRigidBodyE9constructIS2_IRKS2_EEEvPT_DpOT0_ [133] std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_Vector_impl::~_Vector_impl()
+  [75] addSphere(float, float, float, float, float) [127] __gnu_cxx::new_allocator<btRigidBody*>::new_allocator() [96] std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_M_deallocate(btRigidBody**, unsigned long)
+   [1] gResolveSplitPenetrationImpulse_scalar_reference(btSolverBody&, btSolverBody&, btSolverConstraint const&) [128] __gnu_cxx::new_allocator<btRigidBody*>::~new_allocator() [86] std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_M_get_Tp_allocator()
+ [121] btMatrix3x3::getIdentity() [78] btVector3::setX(float) [134] std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_Vector_base()
+  [56] btMatrix3x3::setIdentity() [79] btVector3::setZero() [135] std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::~_Vector_base()
+  [26] btMatrix3x3::setValue(float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&) [19] btVector3::setValue(float const&, float const&, float const&) [91] std::move_iterator<btRigidBody**>::move_iterator(btRigidBody**)
+  [25] btMatrix3x3::btMatrix3x3(btMatrix3x3 const&) [21] btVector3::btVector3(float const&, float const&, float const&) [104] std::allocator_traits<std::allocator<btRigidBody*> >::deallocate(std::allocator<btRigidBody*>&, btRigidBody**, unsigned long)
+  [27] btMatrix3x3::btMatrix3x3(float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&, float const&) [18] btVector3::btVector3() [105] std::allocator_traits<std::allocator<btRigidBody*> >::allocate(std::allocator<btRigidBody*>&, unsigned long)
+  [38] btMatrix3x3::btMatrix3x3() [22] btMatrix3x3::tdotx(btVector3 const&) const [92] std::allocator_traits<std::allocator<btRigidBody*> >::max_size(std::allocator<btRigidBody*> const&)
+  [31] btMatrix3x3::operator=(btMatrix3x3 const&) [23] btMatrix3x3::tdoty(btVector3 const&) const [72] _ZNSt16allocator_traitsISaIP11btRigidBodyEE9constructIS1_IRKS1_EEEvRS2_PT_DpOT0_
+  [30] btRigidBody::getMotionState() [24] btMatrix3x3::tdotz(btVector3 const&) const [106] btRigidBody** std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<btRigidBody**>, btRigidBody**>(std::move_iterator<btRigidBody**>, std::move_iterator<btRigidBody**>, btRigidBody**)
+  [59] btRigidBody::getCollisionShape() [40] btMatrix3x3::transpose() const [136] std::enable_if<std::chrono::__is_duration<std::chrono::duration<double, std::ratio<1l, 1l> > >::value, std::chrono::duration<double, std::ratio<1l, 1l> > >::type std::chrono::duration_cast<std::chrono::duration<double, std::ratio<1l, 1l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  [80] btRigidBody::setLinearVelocity(btVector3 const&) [17] btMatrix3x3::operator[](int) const [137] std::enable_if<std::chrono::__is_duration<std::chrono::duration<long, std::ratio<1l, 1l> > >::value, std::chrono::duration<long, std::ratio<1l, 1l> > >::type std::chrono::duration_cast<std::chrono::duration<long, std::ratio<1l, 1l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  [60] btRigidBody::btRigidBodyConstructionInfo::btRigidBodyConstructionInfo(float, btMotionState*, btCollisionShape*, btVector3 const&) [41] btTransform::inverse() const [138] std::chrono::duration<double, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  [45] btRigidBody::upcast(btCollisionObject*) [33] btTransform::operator()(btVector3 const&) const [139] std::chrono::duration<long, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<long, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, long, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  [61] btTransform::getIdentity() [34] btTransform::operator*(btTransform const&) const [140] std::chrono::_V2::system_clock::to_time_t(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&)
+  [57] btTransform::setIdentity() [81] btCollisionWorld::getNumCollisionObjects() const [141] std::chrono::duration<double, std::ratio<1l, 1l> >::duration<double, void>(double const&)
+  [29] btTransform::getOrigin() [48] btCollisionObject::getInternalType() const [142] std::chrono::duration<double, std::ratio<1l, 1l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  [62] btTransform::setOrigin(btVector3 const&) [82] btAlignedObjectArray<btCollisionObject*>::size() const [143] std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&)
+  [28] btTransform::btTransform(btMatrix3x3 const&, btVector3 const&) [42] btDefaultMotionState::getWorldTransform(btTransform&) const [144] std::chrono::duration<long, std::ratio<1l, 1l> >::duration<long, void>(long const&)
+  [39] btTransform::btTransform() [83] __gnu_cxx::new_allocator<btRigidBody*>::max_size() const [145] std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&)
+  [54] btTransform::btTransform(btTransform const&) [14] btVector3::x() const [146] std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  [32] btTransform::operator=(btTransform const&) [15] btVector3::y() const [107] void std::vector<btRigidBody*, std::allocator<btRigidBody*> >::_M_emplace_back_aux<btRigidBody* const&>(btRigidBody* const&)
+  [63] btMotionState::btMotionState() [16] btVector3::z() const [73] std::vector<btRigidBody*, std::allocator<btRigidBody*> >::push_back(btRigidBody* const&)
+  [64] btMotionState::~btMotionState() [20] btVector3::dot(btVector3 const&) const [147] std::vector<btRigidBody*, std::allocator<btRigidBody*> >::vector()
+  [76] btSphereShape::btSphereShape(float) [35] btVector3::dot3(btVector3 const&, btVector3 const&, btVector3 const&) const [53] std::vector<btRigidBody*, std::allocator<btRigidBody*> >::operator[](unsigned long)
+  [77] btSphereShape::operator new(unsigned long) [49] btVector3::getX() const [93] std::_Miter_base<std::move_iterator<btRigidBody**> >::iterator_type std::__miter_base<std::move_iterator<btRigidBody**> >(std::move_iterator<btRigidBody**>)
+  [46] btCollisionWorld::getCollisionObjectArray() [50] btVector3::getY() const [85] std::_Niter_base<btRigidBody**>::iterator_type std::__niter_base<btRigidBody**>(btRigidBody**)
+   [2] btDbvtBroadphase::setAabb(btBroadphaseProxy*, btVector3 const&, btVector3 const&, btDispatcher*) [51] btVector3::getZ() const [108] btRigidBody** std::__copy_move_a<true, btRigidBody**, btRigidBody**>(btRigidBody**, btRigidBody**, btRigidBody**)
+  [65] btCollisionObject::operator new(unsigned long) [87] std::_Vector_base<btRigidBody*, std::allocator<btRigidBody*> >::_M_get_Tp_allocator() const [109] btRigidBody** std::__copy_move_a2<true, btRigidBody**, btRigidBody**>(btRigidBody**, btRigidBody**, btRigidBody**)
+ [122] btInfMaskConverter::btInfMaskConverter(int) [88] std::move_iterator<btRigidBody**>::base() const [110] btRigidBody** std::uninitialized_copy<std::move_iterator<btRigidBody**>, btRigidBody**>(std::move_iterator<btRigidBody**>, std::move_iterator<btRigidBody**>, btRigidBody**)
+ [123] btStaticPlaneShape::operator new(unsigned long) [116] std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const [111] btRigidBody** std::__uninitialized_copy_a<std::move_iterator<btRigidBody**>, btRigidBody**, btRigidBody*>(std::move_iterator<btRigidBody**>, std::move_iterator<btRigidBody**>, btRigidBody**, std::allocator<btRigidBody*>&)
+  [47] btAlignedObjectArray<btCollisionObject*>::operator[](int) [117] std::chrono::duration<double, std::ratio<1l, 1l> >::count() const [94] std::move_iterator<btRigidBody**> std::__make_move_if_noexcept_iterator<btRigidBody**, std::move_iterator<btRigidBody**> >(btRigidBody**)
+  [52] btDefaultMotionState::setWorldTransform(btTransform const&) [115] std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [112] btRigidBody** std::__uninitialized_move_if_noexcept_a<btRigidBody**, btRigidBody**, std::allocator<btRigidBody*> >(btRigidBody**, btRigidBody**, btRigidBody**, std::allocator<btRigidBody*>&)
+  [66] btDefaultMotionState::btDefaultMotionState(btTransform const&, btTransform const&) [129] std::chrono::duration<long, std::ratio<1l, 1l> >::count() const [113] unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
+  [67] btDefaultMotionState::~btDefaultMotionState() [101] std::vector<btRigidBody*, std::allocator<btRigidBody*> >::_M_check_len(unsigned long, char const*) const [114] btRigidBody** std::copy<std::move_iterator<btRigidBody**>, btRigidBody**>(std::move_iterator<btRigidBody**>, std::move_iterator<btRigidBody**>, btRigidBody**)
+  [68] btDefaultMotionState::~btDefaultMotionState() [58] std::vector<btRigidBody*, std::allocator<btRigidBody*> >::size() const [55] btRigidBody* const& std::forward<btRigidBody* const&>(std::remove_reference<btRigidBody* const&>::type&)
+  [69] btDefaultMotionState::operator delete(void*) [89] std::vector<btRigidBody*, std::allocator<btRigidBody*> >::max_size() const [97] void std::_Destroy<btRigidBody**>(btRigidBody**, btRigidBody**)
+  [70] btDefaultMotionState::operator new(unsigned long) [130] std::allocator<btRigidBody*>::allocator() [98] void std::_Destroy<btRigidBody**, btRigidBody*>(btRigidBody**, btRigidBody**, std::allocator<btRigidBody*>&)
+ [124] btDiscreteDynamicsWorld::operator new(unsigned long) [131] std::allocator<btRigidBody*>::~allocator() [43] operator*(btMatrix3x3 const&, btVector3 const&)
+   [3] btHashedOverlappingPairCache::internalAddPair(btBroadphaseProxy*, btBroadphaseProxy*) [84] std::_Iter_base<btRigidBody**, false>::_S_base(btRigidBody**) [36] operator*(btMatrix3x3 const&, btMatrix3x3 const&)
+ [125] btDefaultCollisionConstructionInfo::btDefaultCollisionConstructionInfo() [90] std::_Iter_base<std::move_iterator<btRigidBody**>, true>::_S_base(std::move_iterator<btRigidBody**>) [44] operator-(btVector3 const&)
+   [4] btSequentialImpulseConstraintSolver::getOrInitSolverBody(btCollisionObject&, float) [102] btRigidBody** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<btRigidBody*>(btRigidBody* const*, btRigidBody* const*, btRigidBody**) [74] operator new(unsigned long, void*)
+ [126] btSequentialImpulseConstraintSolver::operator new(unsigned long) [95] void std::_Destroy_aux<true>::__destroy<btRigidBody**>(btRigidBody**, btRigidBody**) [37] operator+(btVector3 const&, btVector3 const&)
