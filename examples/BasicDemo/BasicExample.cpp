@@ -16,9 +16,9 @@ subject to the following restrictions:
 #include "BasicExample.h"
 
 #include "btBulletDynamicsCommon.h"
-#define ARRAY_SIZE_Y 5
-#define ARRAY_SIZE_X 5
-#define ARRAY_SIZE_Z 5
+#define ARRAY_SIZE_Y 10
+#define ARRAY_SIZE_X 10
+#define ARRAY_SIZE_Z 10
 
 #include "LinearMath/btVector3.h"
 #include "LinearMath/btAlignedObjectArray.h"
@@ -36,10 +36,10 @@ struct BasicExample : public CommonRigidBodyBase
 	virtual void renderScene();
 	void resetCamera()
 	{
-		float dist = 4;
+		float dist = 1;
 		float pitch = -35;
 		float yaw = 52;
-		float targetPos[3] = {0, 0, 0};
+		float targetPos[3] = {5, 5, 5};
 		m_guiHelper->resetCamera(dist, yaw, pitch, targetPos[0], targetPos[1], targetPos[2]);
 	}
 };
@@ -76,23 +76,19 @@ void BasicExample::initPhysics()
 		//create a few dynamic rigidbodies
 		// Re-using the same collision is better for memory usage and performance
 
-		btBoxShape* colShape = createBoxShape(btVector3(.1, .1, .1));
-
-		//btCollisionShape* colShape = new btSphereShape(btScalar(1.));
+		btBoxShape* colShape = createBoxShape(btVector3(1, 1, 1));
 		m_collisionShapes.push_back(colShape);
+
+		btCollisionShape* colShape2 = new btSphereShape(btScalar(.5));
+		m_collisionShapes.push_back(colShape2);
+
+		btCollisionShape* colShape3 = new btSphereShape(btScalar(2));
+		m_collisionShapes.push_back(colShape2);
+
 
 		/// Create Dynamic Objects
 		btTransform startTransform;
 		startTransform.setIdentity();
-
-		btScalar mass(1.f);
-
-		//rigidbody is dynamic if and only if mass is non zero, otherwise static
-		bool isDynamic = (mass != 0.f);
-
-		btVector3 localInertia(0, 0, 0);
-		if (isDynamic)
-			colShape->calculateLocalInertia(mass, localInertia);
 
 		for (int k = 0; k < ARRAY_SIZE_Y; k++)
 		{
@@ -100,14 +96,48 @@ void BasicExample::initPhysics()
 			{
 				for (int j = 0; j < ARRAY_SIZE_Z; j++)
 				{
-					startTransform.setOrigin(btVector3(
-						btScalar(0.2 * i),
-						btScalar(2 + .2 * k),
-						btScalar(0.2 * j)));
+					if (k == 0|| i == ARRAY_SIZE_X -1 || i == 0 || j == ARRAY_SIZE_Z -1 || j == 0){
+						//set position
+						startTransform.setOrigin(btVector3(
+						btScalar(2 * i),
+						btScalar(2* k),
+						btScalar(2 * j)));
+							createRigidBody(0.f, startTransform, colShape);
 
-					createRigidBody(mass, startTransform, colShape);
+					
+					}
+
 				}
 			}
+		}
+		startTransform.setOrigin(btVector3(
+						btScalar(10),
+						btScalar(1),
+						btScalar(10)));
+							createRigidBody(0.f, startTransform, colShape3);
+		
+		btScalar mass(1.f);
+
+		//rigidbody is dynamic if and only if mass is non zero, otherwise static
+		bool isDynamic = (mass != 0.f);
+
+		btVector3 localInertia(0, 0, 0);
+		if (isDynamic)
+			colShape2->calculateLocalInertia(mass, localInertia);
+
+		int numBalls = 200;
+		for (int i = 0; i < numBalls; i++){
+			int offset = rand() % 100 - 50;
+			int offset2 = rand() % 100 - 50;
+
+			startTransform.setOrigin(btVector3(
+				btScalar(10 + 0.02*offset),
+				btScalar(10 * i + 100),
+				btScalar(10+ 0.02*offset2)));
+			btRigidBody* body;
+			body ->setRestitution(1);
+			body = createRigidBody(mass, startTransform, colShape2);
+			body ->setRestitution(1);
 		}
 	}
 
