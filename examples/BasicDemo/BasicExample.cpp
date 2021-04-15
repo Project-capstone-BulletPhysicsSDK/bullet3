@@ -82,6 +82,9 @@ void BasicExample::initPhysics()
 		btCollisionShape* colShape2 = new btSphereShape(btScalar(.5));
 		m_collisionShapes.push_back(colShape2);
 
+		btCollisionShape* colShape3 = new btSphereShape(btScalar(2));
+		m_collisionShapes.push_back(colShape2);
+
 
 		/// Create Dynamic Objects
 		btTransform startTransform;
@@ -107,24 +110,34 @@ void BasicExample::initPhysics()
 				}
 			}
 		}
+		startTransform.setOrigin(btVector3(
+						btScalar(10),
+						btScalar(1),
+						btScalar(10)));
+							createRigidBody(0.f, startTransform, colShape3);
 		
 		btScalar mass(1.f);
 
 		//rigidbody is dynamic if and only if mass is non zero, otherwise static
-		bool isDynamic = (mass != 1.f);
+		bool isDynamic = (mass != 0.f);
 
 		btVector3 localInertia(0, 0, 0);
 		if (isDynamic)
-			colShape->calculateLocalInertia(mass, localInertia);
+			colShape2->calculateLocalInertia(mass, localInertia);
 
-		int numBalls = 100;
+		int numBalls = 200;
 		for (int i = 0; i < numBalls; i++){
-			int offset = rand() % 100;
+			int offset = rand() % 100 - 50;
+			int offset2 = rand() % 100 - 50;
+
 			startTransform.setOrigin(btVector3(
-				btScalar(10 + 0.01*offset),
-				btScalar(5* i + 100),
-				btScalar(10+ 0.01*offset)));
-			createRigidBody(mass, startTransform, colShape2);
+				btScalar(10 + 0.02*offset),
+				btScalar(10 * i + 100),
+				btScalar(10+ 0.02*offset2)));
+			btRigidBody* body;
+			body ->setRestitution(1);
+			body = createRigidBody(mass, startTransform, colShape2);
+			body ->setRestitution(1);
 		}
 	}
 
