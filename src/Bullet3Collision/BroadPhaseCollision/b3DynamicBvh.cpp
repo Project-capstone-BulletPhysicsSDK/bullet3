@@ -15,6 +15,7 @@ subject to the following restrictions:
 ///b3DynamicBvh implementation by Nathanael Presson
 
 #include "b3DynamicBvh.h"
+#include <iostream>
 
 //
 typedef b3AlignedObjectArray<b3DbvtNode*> b3NodeArray;
@@ -71,6 +72,7 @@ static void b3GetMaxDepth(const b3DbvtNode* node, int depth, int& maxdepth)
 static B3_DBVT_INLINE void b3DeleteNode(b3DynamicBvh* pdbvt,
 										b3DbvtNode* node)
 {
+	std::cerr<<"delete node called"<<std::endl;
 	b3AlignedFree(pdbvt->m_free);
 	pdbvt->m_free = node;
 }
@@ -79,6 +81,7 @@ static B3_DBVT_INLINE void b3DeleteNode(b3DynamicBvh* pdbvt,
 static void b3RecurseDeleteNode(b3DynamicBvh* pdbvt,
 								b3DbvtNode* node)
 {
+	std::cerr<<"recurse delete node called"<<std::endl;
 	if (!node->isleaf())
 	{
 		b3RecurseDeleteNode(pdbvt, node->childs[0]);
@@ -93,6 +96,7 @@ static B3_DBVT_INLINE b3DbvtNode* b3CreateNode(b3DynamicBvh* pdbvt,
 											   b3DbvtNode* parent,
 											   void* data)
 {
+	std::cerr<<"create node called"<<std::endl;
 	b3DbvtNode* node;
 	if (pdbvt->m_free)
 	{
@@ -115,6 +119,7 @@ static B3_DBVT_INLINE b3DbvtNode* b3CreateNode(b3DynamicBvh* pdbvt,
 											   const b3DbvtVolume& volume,
 											   void* data)
 {
+	std::cerr<<"create node called"<<std::endl;
 	b3DbvtNode* node = b3CreateNode(pdbvt, parent, data);
 	node->volume = volume;
 	return (node);
@@ -127,6 +132,7 @@ static B3_DBVT_INLINE b3DbvtNode* b3CreateNode(b3DynamicBvh* pdbvt,
 											   const b3DbvtVolume& volume1,
 											   void* data)
 {
+	std::cerr<<"create node called"<<std::endl;
 	b3DbvtNode* node = b3CreateNode(pdbvt, parent, data);
 	b3Merge(volume0, volume1, node->volume);
 	return (node);
@@ -137,6 +143,8 @@ static void b3InsertLeaf(b3DynamicBvh* pdbvt,
 						 b3DbvtNode* root,
 						 b3DbvtNode* leaf)
 {
+	std::cerr<<"insert leaf called"<<std::endl;
+
 	if (!pdbvt->m_root)
 	{
 		pdbvt->m_root = leaf;
@@ -186,6 +194,8 @@ static void b3InsertLeaf(b3DynamicBvh* pdbvt,
 static b3DbvtNode* b3RemoveLeaf(b3DynamicBvh* pdbvt,
 								b3DbvtNode* leaf)
 {
+	std::cerr<<"remove leaf called"<<std::endl;
+
 	if (leaf == pdbvt->m_root)
 	{
 		pdbvt->m_root = 0;
@@ -230,6 +240,8 @@ static void b3FetchLeaves(b3DynamicBvh* pdbvt,
 						  b3NodeArray& leaves,
 						  int depth = -1)
 {
+	std::cerr<<"fetch leaf called"<<std::endl;
+
 	if (root->isinternal() && depth)
 	{
 		b3FetchLeaves(pdbvt, root->childs[0], leaves, depth - 1);
