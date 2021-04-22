@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "App_BasicExample"
   "App_BasicExample.pdb"
-  "CMakeFiles/App_BasicExample.dir/BasicExample.o"
-  "CMakeFiles/App_BasicExample.dir/main.o"
+  "CMakeFiles/App_BasicExample.dir/BasicExample.cpp.o"
+  "CMakeFiles/App_BasicExample.dir/main.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

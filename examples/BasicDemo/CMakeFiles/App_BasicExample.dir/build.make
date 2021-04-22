@@ -57,42 +57,42 @@ include examples/BasicDemo/CMakeFiles/App_BasicExample.dir/progress.make
 # Include the compile flags for this target's objects.
 include examples/BasicDemo/CMakeFiles/App_BasicExample.dir/flags.make
 
-examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o: examples/BasicDemo/CMakeFiles/App_BasicExample.dir/flags.make
-examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o: examples/BasicDemo/BasicExample.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lolitsjef/Desktop/bullet3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/App_BasicExample.dir/BasicExample.o -c /home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BasicExample.cpp
+examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.cpp.o: examples/BasicDemo/CMakeFiles/App_BasicExample.dir/flags.make
+examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.cpp.o: examples/BasicDemo/BasicExample.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lolitsjef/Desktop/bullet3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.cpp.o"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/App_BasicExample.dir/BasicExample.cpp.o -c /home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BasicExample.cpp
 
-examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/App_BasicExample.dir/BasicExample.i"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BasicExample.cpp > CMakeFiles/App_BasicExample.dir/BasicExample.i
+examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/App_BasicExample.dir/BasicExample.cpp.i"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BasicExample.cpp > CMakeFiles/App_BasicExample.dir/BasicExample.cpp.i
 
-examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/App_BasicExample.dir/BasicExample.s"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BasicExample.cpp -o CMakeFiles/App_BasicExample.dir/BasicExample.s
+examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/App_BasicExample.dir/BasicExample.cpp.s"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BasicExample.cpp -o CMakeFiles/App_BasicExample.dir/BasicExample.cpp.s
 
-examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o: examples/BasicDemo/CMakeFiles/App_BasicExample.dir/flags.make
-examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o: examples/BasicDemo/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lolitsjef/Desktop/bullet3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/App_BasicExample.dir/main.o -c /home/lolitsjef/Desktop/bullet3/examples/BasicDemo/main.cpp
+examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.cpp.o: examples/BasicDemo/CMakeFiles/App_BasicExample.dir/flags.make
+examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.cpp.o: examples/BasicDemo/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lolitsjef/Desktop/bullet3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.cpp.o"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/App_BasicExample.dir/main.cpp.o -c /home/lolitsjef/Desktop/bullet3/examples/BasicDemo/main.cpp
 
-examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/App_BasicExample.dir/main.i"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lolitsjef/Desktop/bullet3/examples/BasicDemo/main.cpp > CMakeFiles/App_BasicExample.dir/main.i
+examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/App_BasicExample.dir/main.cpp.i"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lolitsjef/Desktop/bullet3/examples/BasicDemo/main.cpp > CMakeFiles/App_BasicExample.dir/main.cpp.i
 
-examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/App_BasicExample.dir/main.s"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lolitsjef/Desktop/bullet3/examples/BasicDemo/main.cpp -o CMakeFiles/App_BasicExample.dir/main.s
+examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/App_BasicExample.dir/main.cpp.s"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lolitsjef/Desktop/bullet3/examples/BasicDemo/main.cpp -o CMakeFiles/App_BasicExample.dir/main.cpp.s
 
 # Object files for target App_BasicExample
 App_BasicExample_OBJECTS = \
-"CMakeFiles/App_BasicExample.dir/BasicExample.o" \
-"CMakeFiles/App_BasicExample.dir/main.o"
+"CMakeFiles/App_BasicExample.dir/BasicExample.cpp.o" \
+"CMakeFiles/App_BasicExample.dir/main.cpp.o"
 
 # External object files for target App_BasicExample
 App_BasicExample_EXTERNAL_OBJECTS =
 
-examples/BasicDemo/App_BasicExample: examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o
-examples/BasicDemo/App_BasicExample: examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o
+examples/BasicDemo/App_BasicExample: examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.cpp.o
+examples/BasicDemo/App_BasicExample: examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.cpp.o
 examples/BasicDemo/App_BasicExample: examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make
 examples/BasicDemo/App_BasicExample: src/BulletDynamics/libBulletDynamics.a
 examples/BasicDemo/App_BasicExample: src/BulletCollision/libBulletCollision.a

@@ -57,102 +57,102 @@ include examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/progress.make
 # Include the compile flags for this target's objects.
 include examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/flags.make
 
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.o: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/flags.make
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.o: examples/BasicDemo/BasicExample.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lolitsjef/Desktop/bullet3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.o"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AppBasicExampleGui.dir/BasicExample.o -c /home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BasicExample.cpp
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/flags.make
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o: examples/BasicDemo/BasicExample.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lolitsjef/Desktop/bullet3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o -c /home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BasicExample.cpp
 
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AppBasicExampleGui.dir/BasicExample.i"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BasicExample.cpp > CMakeFiles/AppBasicExampleGui.dir/BasicExample.i
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.i"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BasicExample.cpp > CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.i
 
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AppBasicExampleGui.dir/BasicExample.s"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BasicExample.cpp -o CMakeFiles/AppBasicExampleGui.dir/BasicExample.s
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.s"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BasicExample.cpp -o CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.s
 
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.o: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/flags.make
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.o: examples/StandaloneMain/main_opengl_single_example.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lolitsjef/Desktop/bullet3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.o"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.o -c /home/lolitsjef/Desktop/bullet3/examples/StandaloneMain/main_opengl_single_example.cpp
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.cpp.o: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/flags.make
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.cpp.o: examples/StandaloneMain/main_opengl_single_example.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lolitsjef/Desktop/bullet3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.cpp.o"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.cpp.o -c /home/lolitsjef/Desktop/bullet3/examples/StandaloneMain/main_opengl_single_example.cpp
 
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.i"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lolitsjef/Desktop/bullet3/examples/StandaloneMain/main_opengl_single_example.cpp > CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.i
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.cpp.i"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lolitsjef/Desktop/bullet3/examples/StandaloneMain/main_opengl_single_example.cpp > CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.cpp.i
 
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.s"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lolitsjef/Desktop/bullet3/examples/StandaloneMain/main_opengl_single_example.cpp -o CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.s
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.cpp.s"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lolitsjef/Desktop/bullet3/examples/StandaloneMain/main_opengl_single_example.cpp -o CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.cpp.s
 
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.o: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/flags.make
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.o: examples/ExampleBrowser/OpenGLGuiHelper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lolitsjef/Desktop/bullet3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.o"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.o -c /home/lolitsjef/Desktop/bullet3/examples/ExampleBrowser/OpenGLGuiHelper.cpp
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.o: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/flags.make
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.o: examples/ExampleBrowser/OpenGLGuiHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lolitsjef/Desktop/bullet3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.o"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.o -c /home/lolitsjef/Desktop/bullet3/examples/ExampleBrowser/OpenGLGuiHelper.cpp
 
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.i"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lolitsjef/Desktop/bullet3/examples/ExampleBrowser/OpenGLGuiHelper.cpp > CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.i
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.i"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lolitsjef/Desktop/bullet3/examples/ExampleBrowser/OpenGLGuiHelper.cpp > CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.i
 
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.s"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lolitsjef/Desktop/bullet3/examples/ExampleBrowser/OpenGLGuiHelper.cpp -o CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.s
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.s"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lolitsjef/Desktop/bullet3/examples/ExampleBrowser/OpenGLGuiHelper.cpp -o CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.s
 
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.o: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/flags.make
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.o: examples/ExampleBrowser/GL_ShapeDrawer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lolitsjef/Desktop/bullet3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.o"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.o -c /home/lolitsjef/Desktop/bullet3/examples/ExampleBrowser/GL_ShapeDrawer.cpp
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.cpp.o: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/flags.make
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.cpp.o: examples/ExampleBrowser/GL_ShapeDrawer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lolitsjef/Desktop/bullet3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.cpp.o"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.cpp.o -c /home/lolitsjef/Desktop/bullet3/examples/ExampleBrowser/GL_ShapeDrawer.cpp
 
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.i"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lolitsjef/Desktop/bullet3/examples/ExampleBrowser/GL_ShapeDrawer.cpp > CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.i
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.cpp.i"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lolitsjef/Desktop/bullet3/examples/ExampleBrowser/GL_ShapeDrawer.cpp > CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.cpp.i
 
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.s"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lolitsjef/Desktop/bullet3/examples/ExampleBrowser/GL_ShapeDrawer.cpp -o CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.s
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.cpp.s"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lolitsjef/Desktop/bullet3/examples/ExampleBrowser/GL_ShapeDrawer.cpp -o CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.cpp.s
 
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.o: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/flags.make
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.o: examples/ExampleBrowser/CollisionShape2TriangleMesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lolitsjef/Desktop/bullet3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.o"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.o -c /home/lolitsjef/Desktop/bullet3/examples/ExampleBrowser/CollisionShape2TriangleMesh.cpp
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/flags.make
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o: examples/ExampleBrowser/CollisionShape2TriangleMesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lolitsjef/Desktop/bullet3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o -c /home/lolitsjef/Desktop/bullet3/examples/ExampleBrowser/CollisionShape2TriangleMesh.cpp
 
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.i"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lolitsjef/Desktop/bullet3/examples/ExampleBrowser/CollisionShape2TriangleMesh.cpp > CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.i
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.i"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lolitsjef/Desktop/bullet3/examples/ExampleBrowser/CollisionShape2TriangleMesh.cpp > CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.i
 
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.s"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lolitsjef/Desktop/bullet3/examples/ExampleBrowser/CollisionShape2TriangleMesh.cpp -o CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.s
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.s"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lolitsjef/Desktop/bullet3/examples/ExampleBrowser/CollisionShape2TriangleMesh.cpp -o CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.s
 
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.o: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/flags.make
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.o: examples/Utils/b3Clock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lolitsjef/Desktop/bullet3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.o"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.o -c /home/lolitsjef/Desktop/bullet3/examples/Utils/b3Clock.cpp
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.cpp.o: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/flags.make
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.cpp.o: examples/Utils/b3Clock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lolitsjef/Desktop/bullet3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.cpp.o"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.cpp.o -c /home/lolitsjef/Desktop/bullet3/examples/Utils/b3Clock.cpp
 
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.i"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lolitsjef/Desktop/bullet3/examples/Utils/b3Clock.cpp > CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.i
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.cpp.i"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lolitsjef/Desktop/bullet3/examples/Utils/b3Clock.cpp > CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.cpp.i
 
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.s"
-	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lolitsjef/Desktop/bullet3/examples/Utils/b3Clock.cpp -o CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.s
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.cpp.s"
+	cd /home/lolitsjef/Desktop/bullet3/examples/BasicDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lolitsjef/Desktop/bullet3/examples/Utils/b3Clock.cpp -o CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.cpp.s
 
 # Object files for target AppBasicExampleGui
 AppBasicExampleGui_OBJECTS = \
-"CMakeFiles/AppBasicExampleGui.dir/BasicExample.o" \
-"CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.o" \
-"CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.o" \
-"CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.o" \
-"CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.o" \
-"CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.o"
+"CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o" \
+"CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.cpp.o" \
+"CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.o" \
+"CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.cpp.o" \
+"CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o" \
+"CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.cpp.o"
 
 # External object files for target AppBasicExampleGui
 AppBasicExampleGui_EXTERNAL_OBJECTS =
 
-examples/BasicDemo/AppBasicExampleGui: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.o
-examples/BasicDemo/AppBasicExampleGui: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.o
-examples/BasicDemo/AppBasicExampleGui: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.o
-examples/BasicDemo/AppBasicExampleGui: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.o
-examples/BasicDemo/AppBasicExampleGui: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.o
-examples/BasicDemo/AppBasicExampleGui: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.o
+examples/BasicDemo/AppBasicExampleGui: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o
+examples/BasicDemo/AppBasicExampleGui: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.cpp.o
+examples/BasicDemo/AppBasicExampleGui: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.o
+examples/BasicDemo/AppBasicExampleGui: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.cpp.o
+examples/BasicDemo/AppBasicExampleGui: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o
+examples/BasicDemo/AppBasicExampleGui: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.cpp.o
 examples/BasicDemo/AppBasicExampleGui: examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make
 examples/BasicDemo/AppBasicExampleGui: src/BulletDynamics/libBulletDynamics.a
 examples/BasicDemo/AppBasicExampleGui: src/BulletCollision/libBulletCollision.a

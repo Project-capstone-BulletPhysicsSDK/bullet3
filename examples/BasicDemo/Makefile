@@ -197,113 +197,197 @@ App_BasicExample/fast:
 	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build
 .PHONY : App_BasicExample/fast
 
-# target to build an object file
-BasicExample.o:
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.o
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o
+BasicExample.o: BasicExample.cpp.o
+
 .PHONY : BasicExample.o
 
-# target to preprocess a source file
-BasicExample.i:
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.i
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.i
+# target to build an object file
+BasicExample.cpp.o:
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.cpp.o
+.PHONY : BasicExample.cpp.o
+
+BasicExample.i: BasicExample.cpp.i
+
 .PHONY : BasicExample.i
 
-# target to generate assembly for a file
-BasicExample.s:
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.s
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.s
+# target to preprocess a source file
+BasicExample.cpp.i:
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.i
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.cpp.i
+.PHONY : BasicExample.cpp.i
+
+BasicExample.s: BasicExample.cpp.s
+
 .PHONY : BasicExample.s
 
-# target to build an object file
-__/ExampleBrowser/CollisionShape2TriangleMesh.o:
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.o
+# target to generate assembly for a file
+BasicExample.cpp.s:
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.s
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.cpp.s
+.PHONY : BasicExample.cpp.s
+
+__/ExampleBrowser/CollisionShape2TriangleMesh.o: __/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o
+
 .PHONY : __/ExampleBrowser/CollisionShape2TriangleMesh.o
 
-# target to preprocess a source file
-__/ExampleBrowser/CollisionShape2TriangleMesh.i:
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.i
+# target to build an object file
+__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o:
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o
+.PHONY : __/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o
+
+__/ExampleBrowser/CollisionShape2TriangleMesh.i: __/ExampleBrowser/CollisionShape2TriangleMesh.cpp.i
+
 .PHONY : __/ExampleBrowser/CollisionShape2TriangleMesh.i
 
-# target to generate assembly for a file
-__/ExampleBrowser/CollisionShape2TriangleMesh.s:
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.s
+# target to preprocess a source file
+__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.i:
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.i
+.PHONY : __/ExampleBrowser/CollisionShape2TriangleMesh.cpp.i
+
+__/ExampleBrowser/CollisionShape2TriangleMesh.s: __/ExampleBrowser/CollisionShape2TriangleMesh.cpp.s
+
 .PHONY : __/ExampleBrowser/CollisionShape2TriangleMesh.s
 
-# target to build an object file
-__/ExampleBrowser/GL_ShapeDrawer.o:
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.o
+# target to generate assembly for a file
+__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.s:
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.s
+.PHONY : __/ExampleBrowser/CollisionShape2TriangleMesh.cpp.s
+
+__/ExampleBrowser/GL_ShapeDrawer.o: __/ExampleBrowser/GL_ShapeDrawer.cpp.o
+
 .PHONY : __/ExampleBrowser/GL_ShapeDrawer.o
 
-# target to preprocess a source file
-__/ExampleBrowser/GL_ShapeDrawer.i:
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.i
+# target to build an object file
+__/ExampleBrowser/GL_ShapeDrawer.cpp.o:
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.cpp.o
+.PHONY : __/ExampleBrowser/GL_ShapeDrawer.cpp.o
+
+__/ExampleBrowser/GL_ShapeDrawer.i: __/ExampleBrowser/GL_ShapeDrawer.cpp.i
+
 .PHONY : __/ExampleBrowser/GL_ShapeDrawer.i
 
-# target to generate assembly for a file
-__/ExampleBrowser/GL_ShapeDrawer.s:
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.s
+# target to preprocess a source file
+__/ExampleBrowser/GL_ShapeDrawer.cpp.i:
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.cpp.i
+.PHONY : __/ExampleBrowser/GL_ShapeDrawer.cpp.i
+
+__/ExampleBrowser/GL_ShapeDrawer.s: __/ExampleBrowser/GL_ShapeDrawer.cpp.s
+
 .PHONY : __/ExampleBrowser/GL_ShapeDrawer.s
 
-# target to build an object file
-__/ExampleBrowser/OpenGLGuiHelper.o:
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.o
+# target to generate assembly for a file
+__/ExampleBrowser/GL_ShapeDrawer.cpp.s:
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.cpp.s
+.PHONY : __/ExampleBrowser/GL_ShapeDrawer.cpp.s
+
+__/ExampleBrowser/OpenGLGuiHelper.o: __/ExampleBrowser/OpenGLGuiHelper.cpp.o
+
 .PHONY : __/ExampleBrowser/OpenGLGuiHelper.o
 
-# target to preprocess a source file
-__/ExampleBrowser/OpenGLGuiHelper.i:
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.i
+# target to build an object file
+__/ExampleBrowser/OpenGLGuiHelper.cpp.o:
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.o
+.PHONY : __/ExampleBrowser/OpenGLGuiHelper.cpp.o
+
+__/ExampleBrowser/OpenGLGuiHelper.i: __/ExampleBrowser/OpenGLGuiHelper.cpp.i
+
 .PHONY : __/ExampleBrowser/OpenGLGuiHelper.i
 
-# target to generate assembly for a file
-__/ExampleBrowser/OpenGLGuiHelper.s:
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.s
+# target to preprocess a source file
+__/ExampleBrowser/OpenGLGuiHelper.cpp.i:
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.i
+.PHONY : __/ExampleBrowser/OpenGLGuiHelper.cpp.i
+
+__/ExampleBrowser/OpenGLGuiHelper.s: __/ExampleBrowser/OpenGLGuiHelper.cpp.s
+
 .PHONY : __/ExampleBrowser/OpenGLGuiHelper.s
 
-# target to build an object file
-__/StandaloneMain/main_opengl_single_example.o:
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.o
+# target to generate assembly for a file
+__/ExampleBrowser/OpenGLGuiHelper.cpp.s:
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.s
+.PHONY : __/ExampleBrowser/OpenGLGuiHelper.cpp.s
+
+__/StandaloneMain/main_opengl_single_example.o: __/StandaloneMain/main_opengl_single_example.cpp.o
+
 .PHONY : __/StandaloneMain/main_opengl_single_example.o
 
-# target to preprocess a source file
-__/StandaloneMain/main_opengl_single_example.i:
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.i
+# target to build an object file
+__/StandaloneMain/main_opengl_single_example.cpp.o:
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.cpp.o
+.PHONY : __/StandaloneMain/main_opengl_single_example.cpp.o
+
+__/StandaloneMain/main_opengl_single_example.i: __/StandaloneMain/main_opengl_single_example.cpp.i
+
 .PHONY : __/StandaloneMain/main_opengl_single_example.i
 
-# target to generate assembly for a file
-__/StandaloneMain/main_opengl_single_example.s:
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.s
+# target to preprocess a source file
+__/StandaloneMain/main_opengl_single_example.cpp.i:
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.cpp.i
+.PHONY : __/StandaloneMain/main_opengl_single_example.cpp.i
+
+__/StandaloneMain/main_opengl_single_example.s: __/StandaloneMain/main_opengl_single_example.cpp.s
+
 .PHONY : __/StandaloneMain/main_opengl_single_example.s
 
-# target to build an object file
-__/Utils/b3Clock.o:
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.o
+# target to generate assembly for a file
+__/StandaloneMain/main_opengl_single_example.cpp.s:
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.cpp.s
+.PHONY : __/StandaloneMain/main_opengl_single_example.cpp.s
+
+__/Utils/b3Clock.o: __/Utils/b3Clock.cpp.o
+
 .PHONY : __/Utils/b3Clock.o
 
-# target to preprocess a source file
-__/Utils/b3Clock.i:
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.i
+# target to build an object file
+__/Utils/b3Clock.cpp.o:
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.cpp.o
+.PHONY : __/Utils/b3Clock.cpp.o
+
+__/Utils/b3Clock.i: __/Utils/b3Clock.cpp.i
+
 .PHONY : __/Utils/b3Clock.i
 
-# target to generate assembly for a file
-__/Utils/b3Clock.s:
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.s
+# target to preprocess a source file
+__/Utils/b3Clock.cpp.i:
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.cpp.i
+.PHONY : __/Utils/b3Clock.cpp.i
+
+__/Utils/b3Clock.s: __/Utils/b3Clock.cpp.s
+
 .PHONY : __/Utils/b3Clock.s
 
-# target to build an object file
-main.o:
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o
+# target to generate assembly for a file
+__/Utils/b3Clock.cpp.s:
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.cpp.s
+.PHONY : __/Utils/b3Clock.cpp.s
+
+main.o: main.cpp.o
+
 .PHONY : main.o
 
-# target to preprocess a source file
-main.i:
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.i
+# target to build an object file
+main.cpp.o:
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
 .PHONY : main.i
 
-# target to generate assembly for a file
-main.s:
-	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.s
+# target to preprocess a source file
+main.cpp.i:
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
 .PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /home/lolitsjef/Desktop/bullet3 && $(MAKE) -f examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:

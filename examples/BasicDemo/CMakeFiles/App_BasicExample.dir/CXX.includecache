@@ -20,6 +20,24 @@ LinearMath/btAlignedObjectArray.h
 
 /home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BasicExample.h
 
+/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/main.cpp
+BasicExample.h
+/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BasicExample.h
+../CommonInterfaces/CommonExampleInterface.h
+/home/lolitsjef/Desktop/bullet3/examples/CommonInterfaces/CommonExampleInterface.h
+../CommonInterfaces/CommonGUIHelperInterface.h
+/home/lolitsjef/Desktop/bullet3/examples/CommonInterfaces/CommonGUIHelperInterface.h
+BulletCollision/CollisionDispatch/btCollisionObject.h
+/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BulletCollision/CollisionDispatch/btCollisionObject.h
+BulletCollision/CollisionShapes/btCollisionShape.h
+/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BulletCollision/CollisionShapes/btCollisionShape.h
+BulletDynamics/Dynamics/btDiscreteDynamicsWorld.h
+/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BulletDynamics/Dynamics/btDiscreteDynamicsWorld.h
+LinearMath/btTransform.h
+/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/LinearMath/btTransform.h
+LinearMath/btHashMap.h
+/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/LinearMath/btHashMap.h
+
 /home/lolitsjef/Desktop/bullet3/examples/CommonInterfaces/CommonCallbacks.h
 
 /home/lolitsjef/Desktop/bullet3/examples/CommonInterfaces/CommonCameraInterface.h

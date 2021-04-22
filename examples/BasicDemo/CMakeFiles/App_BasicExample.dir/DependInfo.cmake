@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BasicExample.cpp" "/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o"
-  "/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/main.cpp" "/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o"
+  "/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BasicExample.cpp" "/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.cpp.o"
+  "/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/main.cpp" "/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

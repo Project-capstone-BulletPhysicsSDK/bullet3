@@ -1,4 +1,6 @@
 # App_BasicExample is a minimal sample creating, stepping and deleting a Bullet dynamics world
+cmake_minimum_required(VERSION 3.16)
+project(App_BasicExample)
 
 INCLUDE_DIRECTORIES(
 ${BULLET_PHYSICS_SOURCE_DIR}/src
