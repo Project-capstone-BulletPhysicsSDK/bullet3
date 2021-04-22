@@ -15,7 +15,6 @@ subject to the following restrictions:
 ///btDbvt implementation by Nathanael Presson
 
 #include "btDbvt.h"
-#include "iostream"
 
 //
 typedef btAlignedObjectArray<btDbvtNode*> tNodeArray;
@@ -535,7 +534,6 @@ void btDbvt::optimizeIncremental(int passes)
 //
 btDbvtNode* btDbvt::insert(const btDbvtVolume& volume, void* data)
 {
-	std::cerr << "Insert!" << std::endl;
 	btDbvtNode* leaf = createnode(this, 0, volume, data);
 	insertleaf(this, m_root, leaf);
 	++m_leaves;
@@ -616,7 +614,6 @@ bool btDbvt::update(btDbvtNode* leaf, btDbvtVolume& volume, btScalar margin)
 //
 void btDbvt::remove(btDbvtNode* leaf)
 {
-	std::cerr << "Remove!" << std::endl;
 	removeleaf(this, leaf);
 	deletenode(this, leaf);
 	--m_leaves;
