@@ -16,12 +16,12 @@ examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o: src/Bul
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o: src/Bullet3Common/b3MinMax.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o: src/Bullet3Common/b3Scalar.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o: src/Bullet3Common/b3Vector3.h
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o: src/BulletCollision/BroadphaseCollision/SHMEEPEE.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o: src/BulletCollision/BroadphaseCollision/btAxisSweep3.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o: src/BulletCollision/BroadphaseCollision/btAxisSweep3Internal.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o: src/BulletCollision/BroadphaseCollision/btBroadphaseInterface.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o: src/BulletCollision/BroadphaseCollision/btBroadphaseProxy.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o: src/BulletCollision/BroadphaseCollision/btCollisionAlgorithm.h
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o: src/BulletCollision/BroadphaseCollision/btDbvt.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o: src/BulletCollision/BroadphaseCollision/btDbvtBroadphase.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o: src/BulletCollision/BroadphaseCollision/btDispatcher.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o: src/BulletCollision/BroadphaseCollision/btOverlappingPairCache.h
@@ -119,12 +119,12 @@ examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.cpp.o: src/btB
 
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o: examples/ExampleBrowser/CollisionShape2TriangleMesh.cpp
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o: examples/ExampleBrowser/CollisionShape2TriangleMesh.h
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o: src/BulletCollision/BroadphaseCollision/SHMEEPEE.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o: src/BulletCollision/BroadphaseCollision/btAxisSweep3.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o: src/BulletCollision/BroadphaseCollision/btAxisSweep3Internal.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o: src/BulletCollision/BroadphaseCollision/btBroadphaseInterface.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o: src/BulletCollision/BroadphaseCollision/btBroadphaseProxy.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o: src/BulletCollision/BroadphaseCollision/btCollisionAlgorithm.h
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o: src/BulletCollision/BroadphaseCollision/btDbvt.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o: src/BulletCollision/BroadphaseCollision/btDbvtBroadphase.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o: src/BulletCollision/BroadphaseCollision/btDispatcher.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.cpp.o: src/BulletCollision/BroadphaseCollision/btOverlappingPairCache.h
@@ -272,12 +272,12 @@ examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGui
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.o: src/Bullet3Common/b3MinMax.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.o: src/Bullet3Common/b3Scalar.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.o: src/Bullet3Common/b3Vector3.h
+examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.o: src/BulletCollision/BroadphaseCollision/SHMEEPEE.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.o: src/BulletCollision/BroadphaseCollision/btAxisSweep3.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.o: src/BulletCollision/BroadphaseCollision/btAxisSweep3Internal.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.o: src/BulletCollision/BroadphaseCollision/btBroadphaseInterface.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.o: src/BulletCollision/BroadphaseCollision/btBroadphaseProxy.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.o: src/BulletCollision/BroadphaseCollision/btCollisionAlgorithm.h
-examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.o: src/BulletCollision/BroadphaseCollision/btDbvt.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.o: src/BulletCollision/BroadphaseCollision/btDbvtBroadphase.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.o: src/BulletCollision/BroadphaseCollision/btDispatcher.h
 examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.cpp.o: src/BulletCollision/BroadphaseCollision/btOverlappingPairCache.h

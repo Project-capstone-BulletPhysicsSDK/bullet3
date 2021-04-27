@@ -18,7 +18,7 @@ subject to the following restrictions:
 #include "LinearMath/btQuickprof.h"
 #include "BulletCollision/CollisionDispatch/btCollisionObject.h"
 #include "BulletCollision/CollisionShapes/btCompoundShape.h"
-#include "BulletCollision/BroadphaseCollision/btDbvt.h"
+#include "BulletCollision/BroadphaseCollision/SHMEEPEE.h"
 #include "LinearMath/btIDebugDraw.h"
 #include "LinearMath/btAabbUtil2.h"
 #include "BulletCollision/CollisionDispatch/btManifoldResult.h"

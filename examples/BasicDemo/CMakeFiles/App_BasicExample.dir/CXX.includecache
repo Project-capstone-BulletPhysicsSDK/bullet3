@@ -20,24 +20,6 @@ LinearMath/btAlignedObjectArray.h
 
 /home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BasicExample.h
 
-/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/main.cpp
-BasicExample.h
-/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BasicExample.h
-../CommonInterfaces/CommonExampleInterface.h
-/home/lolitsjef/Desktop/bullet3/examples/CommonInterfaces/CommonExampleInterface.h
-../CommonInterfaces/CommonGUIHelperInterface.h
-/home/lolitsjef/Desktop/bullet3/examples/CommonInterfaces/CommonGUIHelperInterface.h
-BulletCollision/CollisionDispatch/btCollisionObject.h
-/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BulletCollision/CollisionDispatch/btCollisionObject.h
-BulletCollision/CollisionShapes/btCollisionShape.h
-/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BulletCollision/CollisionShapes/btCollisionShape.h
-BulletDynamics/Dynamics/btDiscreteDynamicsWorld.h
-/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/BulletDynamics/Dynamics/btDiscreteDynamicsWorld.h
-LinearMath/btTransform.h
-/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/LinearMath/btTransform.h
-LinearMath/btHashMap.h
-/home/lolitsjef/Desktop/bullet3/examples/BasicDemo/LinearMath/btHashMap.h
-
 /home/lolitsjef/Desktop/bullet3/examples/CommonInterfaces/CommonCallbacks.h
 
 /home/lolitsjef/Desktop/bullet3/examples/CommonInterfaces/CommonCameraInterface.h
@@ -140,6 +122,22 @@ src/Bullet3Common/b3MinMax.h
 b3AlignedAllocator.h
 src/Bullet3Common/b3AlignedAllocator.h
 
+src/BulletCollision/BroadphaseCollision/SHMEEPEE.h
+LinearMath/btAlignedObjectArray.h
+src/BulletCollision/BroadphaseCollision/LinearMath/btAlignedObjectArray.h
+LinearMath/btVector3.h
+src/BulletCollision/BroadphaseCollision/LinearMath/btVector3.h
+LinearMath/btTransform.h
+src/BulletCollision/BroadphaseCollision/LinearMath/btTransform.h
+LinearMath/btAabbUtil2.h
+src/BulletCollision/BroadphaseCollision/LinearMath/btAabbUtil2.h
+emmintrin.h
+-
+memory.h
+-
+string.h
+-
+
 src/BulletCollision/BroadphaseCollision/btAxisSweep3.h
 LinearMath/btVector3.h
 src/BulletCollision/BroadphaseCollision/LinearMath/btVector3.h
@@ -192,25 +190,9 @@ src/BulletCollision/BroadphaseCollision/LinearMath/btScalar.h
 LinearMath/btAlignedObjectArray.h
 src/BulletCollision/BroadphaseCollision/LinearMath/btAlignedObjectArray.h
 
-src/BulletCollision/BroadphaseCollision/btDbvt.h
-LinearMath/btAlignedObjectArray.h
-src/BulletCollision/BroadphaseCollision/LinearMath/btAlignedObjectArray.h
-LinearMath/btVector3.h
-src/BulletCollision/BroadphaseCollision/LinearMath/btVector3.h
-LinearMath/btTransform.h
-src/BulletCollision/BroadphaseCollision/LinearMath/btTransform.h
-LinearMath/btAabbUtil2.h
-src/BulletCollision/BroadphaseCollision/LinearMath/btAabbUtil2.h
-emmintrin.h
--
-memory.h
--
-string.h
--
-
 src/BulletCollision/BroadphaseCollision/btDbvtBroadphase.h
-BulletCollision/BroadphaseCollision/btDbvt.h
-src/BulletCollision/BroadphaseCollision/BulletCollision/BroadphaseCollision/btDbvt.h
+BulletCollision/BroadphaseCollision/SHMEEPEE.h
+src/BulletCollision/BroadphaseCollision/BulletCollision/BroadphaseCollision/SHMEEPEE.h
 BulletCollision/BroadphaseCollision/btOverlappingPairCache.h
 src/BulletCollision/BroadphaseCollision/BulletCollision/BroadphaseCollision/btOverlappingPairCache.h
 LinearMath/btQuickprof.h

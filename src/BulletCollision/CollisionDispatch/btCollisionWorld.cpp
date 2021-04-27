@@ -30,7 +30,7 @@ subject to the following restrictions:
 #include "BulletCollision/NarrowPhaseCollision/btContinuousConvexCollision.h"
 #include "BulletCollision/BroadphaseCollision/btCollisionAlgorithm.h"
 #include "BulletCollision/BroadphaseCollision/btBroadphaseInterface.h"
-#include "BulletCollision/BroadphaseCollision/btDbvt.h"
+#include "BulletCollision/BroadphaseCollision/SHMEEPEE.h"
 #include "LinearMath/btAabbUtil2.h"
 #include "LinearMath/btQuickprof.h"
 #include "LinearMath/btSerializer.h"

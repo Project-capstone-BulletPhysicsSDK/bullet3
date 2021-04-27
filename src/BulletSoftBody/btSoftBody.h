@@ -26,7 +26,7 @@ subject to the following restrictions:
 #include "BulletCollision/CollisionShapes/btConcaveShape.h"
 #include "BulletCollision/CollisionDispatch/btCollisionCreateFunc.h"
 #include "btSparseSDF.h"
-#include "BulletCollision/BroadphaseCollision/btDbvt.h"
+#include "BulletCollision/BroadphaseCollision/SHMEEPEE.h"
 #include "BulletDynamics/Featherstone/btMultiBodyLinkCollider.h"
 #include "BulletDynamics/Featherstone/btMultiBodyConstraint.h"
 //#ifdef BT_USE_DOUBLE_PRECISION

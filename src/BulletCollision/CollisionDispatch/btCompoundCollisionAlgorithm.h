@@ -26,7 +26,7 @@ class btDispatcher;
 #include "BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
 #include "btCollisionCreateFunc.h"
 #include "LinearMath/btAlignedObjectArray.h"
-#include "BulletCollision/BroadphaseCollision/btDbvt.h"
+#include "BulletCollision/BroadphaseCollision/SHMEEPEE.h"
 class btDispatcher;
 class btCollisionObject;
 
